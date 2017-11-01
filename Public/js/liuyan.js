@@ -1,6 +1,5 @@
 layui.use('table', function() {
     var table = layui.table;
-    //监听工具条
     table.on('tool(demo)', function(obj) {
         var data = obj.data;
         if (obj.event === 'detail') {
@@ -19,7 +18,7 @@ layui.use('table', function() {
                     '<p><b>提交时间：</b>' + data.tjtime + '</p>' +
                     '<p><b>预约时间：</b>' + data.time + '</p>' +
                     '<p><b>症状描述：</b>' + data.zzms + '</p>' +
-                    '<p><b>提交地址：</b><a href="http://' + data.suburl + '" target="_blank">' + data.suburl + '</a></p>' +
+                    '<p><b>提交地址：</b><a href="http://' + data.suburl + '" target="_blank">' + data.title + '</a></p>' +
                     '</div>',
             });
 
@@ -58,18 +57,7 @@ layui.use('table', function() {
             obj.del();
         }
     });
-
-    $('.demoTable .layui-btn').on('click', function() {
-        var type = $(this).data('type');
-        active[type] ? active[type].call(this) : '';
-    });
 });
-//JavaScript代码区域
-layui.use('element', function() {
-    var element = layui.element;
-
-});
-
 function zt_Modify(id, zt) {
     if (zt == 0) {
         $("#shenhe_" + id).text("未沟通");
