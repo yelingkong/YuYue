@@ -1,0 +1,73 @@
+[ 2017-10-05T09:31:40+08:00 ] 127.0.0.1 /liuyan.php?c=liuyan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+ERR: 无法加载控制器:Liuyan
+
+[ 2017-10-05T09:32:31+08:00 ] 127.0.0.1 /liuyan.php?c=index&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009431s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001161s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001244s ]
+
+[ 2017-10-05T09:32:46+08:00 ] 127.0.0.1 /liuyan.php/home/index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000764s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001341s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `yy_liuyan` WHERE ( 17628284414 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: liuyan D:\yuyue\Liuyan\Home\Controller\IndexController.class.php 第 17 行.
+SQL: INSERT INTO `yy_liuyan` (`name`,`age`,`sex`,`tel`,`zzms`,`hospital`,`ip`,`status`,`create_time`) VALUES ('ceshi','14','男','17628284414','fdsfdsdsds<br>其他信息：孩子现在主要有什么症状:多动,<br/>目前接受过哪些治疗:西药,<br/>您更想了解的是：病情咨询<br>出现了多久:孩子出现以上症状多久了：1~3个月','1','127.0.0.1','0','2017-10-05 09:32:46') [ RunTime:0.0004s ]
+
+[ 2017-10-05T09:32:59+08:00 ] 127.0.0.1 /liuyan.php?c=index&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000746s ]
+
+[ 2017-10-05T10:05:32+08:00 ] 127.0.0.1 /liuyan.php/home/index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001046s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `yy_liuyan` WHERE ( 17625451421 )  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: liuyan D:\yuyue\Liuyan\Home\Controller\IndexController.class.php 第 17 行.
+SQL: INSERT INTO `yy_liuyan` (`name`,`age`,`sex`,`tel`,`zzms`,`hospital`,`ip`,`status`,`create_time`) VALUES ('ceshi','14','男','17625451421','的发的撒地方的方式的方式的首发得分<br>其他信息：孩子现在主要有什么症状:多动,<br/>目前接受过哪些治疗:西药,<br/>您更想了解的是：病情咨询<br>出现了多久:孩子出现以上症状多久了：1~3个月','1','127.0.0.1','0','2017-10-05 10:05:32') [ RunTime:0.0005s ]
+

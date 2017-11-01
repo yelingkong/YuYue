@@ -1,0 +1,689 @@
+[ 2017-10-06T09:35:41+08:00 ] 127.0.0.1 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001538s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001902s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001268s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001355s ]
+
+[ 2017-10-06T09:37:45+08:00 ] 127.0.0.1 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+ERR: 模板不存在:./message/Home/View/Index/index.html
+
+[ 2017-10-06T09:37:59+08:00 ] 127.0.0.1 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005455s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000656s ]
+
+[ 2017-10-06T09:38:18+08:00 ] 127.0.0.1 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005855s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000758s ]
+
+[ 2017-10-06T09:38:33+08:00 ] 127.0.0.1 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `yy_liuyan` WHERE ( 14754121441 )  [ RunTime:0.0117s ]
+NOTIC: [8] Undefined variable: liuyan D:\yyly\message\Home\Controller\IndexController.class.php 第 14 行.
+SQL: INSERT INTO `yy_liuyan` (`name`,`age`,`sex`,`tel`,`zzms`) VALUES ('cersfd','17','男','14754121441','<br>其他信息：孩子现在主要有什么症状:多动,<br/>目前接受过哪些治疗:西药,<br/>您更想了解的是：病情咨询<br>出现了多久:孩子出现以上症状多久了：1~3个月') [ RunTime:0.0005s ]
+
+[ 2017-10-06T09:39:27+08:00 ] 127.0.0.1 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000657s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000689s ]
+
+[ 2017-10-06T09:39:46+08:00 ] 127.0.0.1 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `yy_liuyan` WHERE ( 14213545158 )  [ RunTime:0.0185s ]
+NOTIC: [8] Undefined variable: liuyan D:\yyly\message\Home\Controller\IndexController.class.php 第 14 行.
+SQL: INSERT INTO `yy_liuyan` (`name`,`age`,`sex`,`tel`,`zzms`) VALUES ('ceshi','147','男','14213545158','<br>其他信息：孩子现在主要有什么症状:多动,<br/>目前接受过哪些治疗:西药,<br/>您更想了解的是：病情咨询<br>出现了多久:孩子出现以上症状多久了：1~3个月') [ RunTime:0.0004s ]
+
+[ 2017-10-06T09:40:19+08:00 ] 127.0.0.1 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `yy_liuyan` WHERE ( 14213545158 )  [ RunTime:0.0124s ]
+NOTIC: [8] Undefined variable: liuyan D:\yyly\message\Home\Controller\IndexController.class.php 第 14 行.
+SQL: INSERT INTO `yy_liuyan` (`name`,`age`,`sex`,`tel`,`zzms`,`tjtime`) VALUES ('ceshi','147','男','14213545158','<br>其他信息：孩子现在主要有什么症状:多动,<br/>目前接受过哪些治疗:西药,<br/>您更想了解的是：病情咨询<br>出现了多久:孩子出现以上症状多久了：1~3个月','2017-10-06 09:40:19') [ RunTime:0.0003s ]
+
+[ 2017-10-06T09:41:19+08:00 ] 127.0.0.1 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `yy_liuyan` WHERE ( 14213545158 )  [ RunTime:0.0229s ]
+NOTIC: [8] Undefined variable: liuyan D:\yyly\message\Home\Controller\IndexController.class.php 第 14 行.
+SQL: INSERT INTO `yy_liuyan` (`name`,`age`,`sex`,`tel`,`zzms`,`zt`,`tjtime`) VALUES ('ceshi','147','男','14213545158','<br>其他信息：孩子现在主要有什么症状:多动,<br/>目前接受过哪些治疗:西药,<br/>您更想了解的是：病情咨询<br>出现了多久:孩子出现以上症状多久了：1~3个月','0','2017-10-06 09:41:19') [ RunTime:0.0003s ]
+
+[ 2017-10-06T10:10:54+08:00 ] 127.0.0.1 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `yy_liuyan` WHERE ( 17628296870 )  [ RunTime:0.0182s ]
+NOTIC: [8] Undefined variable: liuyan D:\yyly\message\Home\Controller\IndexController.class.php 第 14 行.
+SQL: INSERT INTO `yy_liuyan` (`name`,`age`,`sex`,`tel`,`zzms`,`zt`,`tjtime`) VALUES ('ceshi','147','男','17628296870','ffsfddfs<br>其他信息：孩子现在主要有什么症状:多动,<br/>目前接受过哪些治疗:西药,<br/>您更想了解的是：病情咨询<br>出现了多久:孩子出现以上症状多久了：1~3个月','0','2017-10-06 10:10:54') [ RunTime:0.0004s ]
+
+[ 2017-10-06T10:10:56+08:00 ] 127.0.0.1 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `yy_liuyan` WHERE ( 17628296870 )  [ RunTime:0.0108s ]
+NOTIC: [8] Undefined variable: liuyan D:\yyly\message\Home\Controller\IndexController.class.php 第 14 行.
+SQL: INSERT INTO `yy_liuyan` (`name`,`age`,`sex`,`tel`,`zzms`,`zt`,`tjtime`) VALUES ('ceshi','147','男','17628296870','ffsfddfs<br>其他信息：孩子现在主要有什么症状:多动,<br/>目前接受过哪些治疗:西药,<br/>您更想了解的是：病情咨询<br>出现了多久:孩子出现以上症状多久了：1~3个月','0','2017-10-06 10:10:56') [ RunTime:0.0003s ]
+
+[ 2017-10-06T10:11:26+08:00 ] 127.0.0.1 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005794s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000648s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000696s ]
+
+[ 2017-10-06T10:12:17+08:00 ] 127.0.0.1 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015673s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015713s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003585s ]
+
+[ 2017-10-06T10:14:05+08:00 ] 127.0.0.1 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006254s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000901s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000959s ]
+
+[ 2017-10-06T10:14:26+08:00 ] 127.0.0.1 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001451s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000982s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001045s ]
+
+[ 2017-10-06T10:15:02+08:00 ] 127.0.0.1 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `yy_liuyan` WHERE ( 17628296870 )  [ RunTime:0.0155s ]
+NOTIC: [8] Undefined variable: liuyan D:\yyly\message\Home\Controller\IndexController.class.php 第 14 行.
+SQL: INSERT INTO `yy_liuyan` (`name`,`age`,`sex`,`tel`,`zzms`,`zt`,`tjtime`) VALUES ('ceshi','14','男','17628296870','测试地方撒对方的测试地方撒对方的测试地方撒对方的测试地方撒对方的<br>其他信息：<br>出现了多久:undefined','0','2017-10-06 10:15:02') [ RunTime:0.0003s ]
+
+[ 2017-10-06T10:18:08+08:00 ] 127.0.0.1 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `yy_liuyan` WHERE ( 17628296870 )  [ RunTime:0.0267s ]
+NOTIC: [8] Undefined variable: liuyan D:\yyly\message\Home\Controller\IndexController.class.php 第 14 行.
+SQL: INSERT INTO `yy_liuyan` (`name`,`age`,`sex`,`tel`,`zzms`,`zt`,`tjtime`) VALUES ('ceshi','14','男','17628296870','测试地方撒对方的测试地方撒对方的测试地方撒对方的测试地方撒对方的<br>其他信息：<br>出现了多久:undefined','0','2017-10-06 10:18:08') [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000853s ]
+
+[ 2017-10-06T14:42:05+08:00 ] 127.0.0.1 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011633s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011666s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000999s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001054s ]
+
+[ 2017-10-06T14:42:23+08:00 ] 127.0.0.1 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `yy_liuyan` WHERE ( 17628296870 )  [ RunTime:0.0150s ]
+NOTIC: [8] Undefined variable: liuyan D:\yyly\message\Home\Controller\IndexController.class.php 第 14 行.
+SQL: INSERT INTO `yy_liuyan` (`name`,`age`,`sex`,`tel`,`zzms`,`zt`,`tjtime`) VALUES ('ceshi','141121','男','17628296870','fsafdfdsdf<br>其他信息：孩子现在主要有什么症状:多动,<br/>目前接受过哪些治疗:西药,<br/>您更想了解的是：病情咨询<br>出现了多久:孩子出现以上症状多久了：1~3个月','0','2017-10-06 14:42:23') [ RunTime:0.0005s ]
+
+[ 2017-10-06T14:44:10+08:00 ] 127.0.0.1 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005049s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2017-10-06T14:44:21+08:00 ] 127.0.0.1 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `yy_liuyan` WHERE ( 17628296870 )  [ RunTime:0.0292s ]
+NOTIC: [8] Undefined variable: liuyan D:\yyly\message\Home\Controller\IndexController.class.php 第 14 行.
+SQL: INSERT INTO `yy_liuyan` (`name`,`age`,`sex`,`tel`,`zzms`,`zt`,`tjtime`) VALUES ('ceshi','','男','17628296870','dfasfddssdf<br>其他信息：<br>出现了多久:undefined','0','2017-10-06 14:44:21') [ RunTime:0.0004s ]
+
+[ 2017-10-06T14:44:24+08:00 ] 127.0.0.1 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `yy_liuyan` WHERE ( 17628296870 )  [ RunTime:0.0117s ]
+NOTIC: [8] Undefined variable: liuyan D:\yyly\message\Home\Controller\IndexController.class.php 第 14 行.
+SQL: INSERT INTO `yy_liuyan` (`name`,`age`,`sex`,`tel`,`zzms`,`zt`,`tjtime`) VALUES ('ceshi','','男','17628296870','dfasfddssdf<br>其他信息：<br>出现了多久:undefined','0','2017-10-06 14:44:24') [ RunTime:0.0006s ]
+
+[ 2017-10-06T14:44:30+08:00 ] 127.0.0.1 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `yy_liuyan` WHERE ( 17628296870 )  [ RunTime:0.0176s ]
+NOTIC: [8] Undefined variable: liuyan D:\yyly\message\Home\Controller\IndexController.class.php 第 14 行.
+SQL: INSERT INTO `yy_liuyan` (`name`,`age`,`sex`,`tel`,`zzms`,`zt`,`tjtime`) VALUES ('ceshi','','男','17628296870','dfasfddssdf<br>其他信息：<br>出现了多久:undefined','0','2017-10-06 14:44:30') [ RunTime:0.0004s ]
+
+[ 2017-10-06T14:45:47+08:00 ] 127.0.0.1 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000338s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001395s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002627s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002738s ]
+
+[ 2017-10-06T14:45:57+08:00 ] 127.0.0.1 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `yy_liuyan` WHERE ( 17628296870 )  [ RunTime:0.0187s ]
+NOTIC: [8] Undefined variable: liuyan D:\yyly\message\Home\Controller\IndexController.class.php 第 14 行.
+SQL: INSERT INTO `yy_liuyan` (`name`,`age`,`sex`,`tel`,`zzms`,`zt`,`tjtime`) VALUES ('fdasd','fdsa','男','17628296870','dfdsafsfddfs<br>其他信息：<br>出现了多久:undefined','0','2017-10-06 14:45:57') [ RunTime:0.0003s ]
+
+[ 2017-10-06T14:46:01+08:00 ] 127.0.0.1 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `yy_liuyan` WHERE ( 17628296870 )  [ RunTime:0.0160s ]
+NOTIC: [8] Undefined variable: liuyan D:\yyly\message\Home\Controller\IndexController.class.php 第 14 行.
+SQL: INSERT INTO `yy_liuyan` (`name`,`age`,`sex`,`tel`,`zzms`,`zt`,`tjtime`) VALUES ('fdasd','fdsa','男','17628296870','dfdsafsfddfs<br>其他信息：<br>出现了多久:undefined','0','2017-10-06 14:46:01') [ RunTime:0.0003s ]
+
+[ 2017-10-06T14:46:27+08:00 ] 127.0.0.1 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000947s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010042s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001683s ]
+
+[ 2017-10-06T14:46:37+08:00 ] 127.0.0.1 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `yy_liuyan` WHERE ( 17628296870 )  [ RunTime:0.0119s ]
+NOTIC: [8] Undefined variable: liuyan D:\yyly\message\Home\Controller\IndexController.class.php 第 14 行.
+SQL: INSERT INTO `yy_liuyan` (`name`,`age`,`sex`,`tel`,`zzms`,`zt`,`tjtime`) VALUES ('ceshi','14','男','17628296870','<br>其他信息：<br>出现了多久:undefined','0','2017-10-06 14:46:37') [ RunTime:0.0003s ]
+
+[ 2017-10-06T14:47:29+08:00 ] 127.0.0.1 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006481s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000649s ]
+
+[ 2017-10-06T14:47:42+08:00 ] 127.0.0.1 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `yy_liuyan` WHERE ( 17628296870 )  [ RunTime:0.0278s ]
+NOTIC: [8] Undefined variable: liuyan D:\yyly\message\Home\Controller\IndexController.class.php 第 14 行.
+SQL: INSERT INTO `yy_liuyan` (`name`,`age`,`sex`,`tel`,`zzms`,`hospital`,`zt`,`tjtime`) VALUES ('cwdfsd','14','男','17628296870','fsdafdads<br>其他信息：<br>出现了多久:undefined','1','0','2017-10-06 14:47:42') [ RunTime:0.0003s ]
+
+[ 2017-10-06T14:48:27+08:00 ] 127.0.0.1 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001825s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007475s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007551s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000766s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000824s ]
+
+[ 2017-10-06T14:48:28+08:00 ] 127.0.0.1 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008119s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001252s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001362s ]
+
+[ 2017-10-06T14:48:40+08:00 ] 127.0.0.1 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `yy_liuyan` WHERE ( 17628296870 )  [ RunTime:0.0392s ]
+NOTIC: [8] Undefined variable: liuyan D:\yyly\message\Home\Controller\IndexController.class.php 第 14 行.
+SQL: INSERT INTO `yy_liuyan` (`name`,`age`,`sex`,`tel`,`zzms`,`hospital`,`bs`,`zt`,`tjtime`) VALUES ('ceshi','17','男','17628296870','fdsafsdf<br>其他信息：<br>出现了多久:undefined','1','1','0','2017-10-06 14:48:40') [ RunTime:0.0005s ]
+
+[ 2017-10-06T14:50:04+08:00 ] 127.0.0.1 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000955s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `yy_liuyan` WHERE ( 17628296870 )  [ RunTime:0.0190s ]
+NOTIC: [8] Undefined variable: liuyan D:\yyly\message\Home\Controller\IndexController.class.php 第 14 行.
+SQL: INSERT INTO `yy_liuyan` (`name`,`age`,`sex`,`tel`,`zzms`,`hospital`,`bs`,`zt`,`tjtime`) VALUES ('ceshi','17','男','17628296870','fdsafsdf<br>其他信息：<br>出现了多久:undefined','1','1','0','2017-10-06 14:50:04') [ RunTime:0.0003s ]
+
+[ 2017-10-06T14:57:46+08:00 ] 127.0.0.1 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0053s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '17628296870' LIMIT 1   [ RunTime:0.0023s ]
+
+[ 2017-10-06T17:08:45+08:00 ] 171.221.254.140 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '17628296870' LIMIT 1   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: INSERT INTO `yy_liuyan` (`name`,`sex`,`age`,`tel`,`zzms`,`hospital`,`bs`,`cnmwda`,`zt`,`tjtime`) VALUES ('ceshi','男','14','17628296870','测试提交<br>其他信息：','1','1','b.et.xnekyy.cn/_adminxx/archives_do.php?aid=2377&dopost=viewArchives','0','2017-10-06 17:08:45') [ RunTime:0.0156s ]
+
+[ 2017-10-06T17:10:31+08:00 ] 171.221.254.140 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '17628296870' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-10-06T17:10:41+08:00 ] 171.221.254.140 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '17628296871' LIMIT 1   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: INSERT INTO `yy_liuyan` (`name`,`sex`,`age`,`tel`,`zzms`,`hospital`,`bs`,`cnmwda`,`zt`,`tjtime`) VALUES ('ceshi','男','14','17628296871','测试提交<br>其他信息：','1','1','b.et.xnekyy.cn/_adminxx/archives_do.php?aid=2377&dopost=viewArchives','0','2017-10-06 17:10:41') [ RunTime:0.0000s ]
+
+[ 2017-10-06T17:12:05+08:00 ] 171.221.254.140 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '17628296872' LIMIT 1   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0156s ]
+SQL: INSERT INTO `yy_liuyan` (`name`,`sex`,`age`,`tel`,`zzms`,`hospital`,`bs`,`cnmwda`,`zt`,`tjtime`) VALUES ('ceshi','男','14','17628296872','测试提交<br>其他信息：','1','1','b.et.xnekyy.cn/_adminxx/archives_do.php?aid=2377&dopost=viewArchives','0','2017-10-06 17:12:05') [ RunTime:0.0000s ]
+
+[ 2017-10-06T17:12:33+08:00 ] 171.221.254.140 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '17628296872' LIMIT 1   [ RunTime:0.0313s ]
+
+[ 2017-10-06T17:14:03+08:00 ] 171.221.254.140 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '17628296872' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-10-06T17:14:07+08:00 ] 171.221.254.140 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '17628296872' LIMIT 1   [ RunTime:0.0156s ]
+
+[ 2017-10-06T17:14:09+08:00 ] 171.221.254.140 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '17628296872' LIMIT 1   [ RunTime:0.0156s ]
+
+[ 2017-10-06T17:14:18+08:00 ] 171.221.254.140 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '17628296872' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-10-06T17:15:58+08:00 ] 171.221.254.140 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '17628296873' LIMIT 1   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: INSERT INTO `yy_liuyan` (`name`,`sex`,`age`,`tel`,`zzms`,`hospital`,`bs`,`cnmwda`,`zt`,`tjtime`) VALUES ('ceshi','男','14','17628296873','测试提交<br>其他信息：','1','1','b.et.xnekyy.cn/_adminxx/archives_do.php?aid=2377&dopost=viewArchives','0','2017-10-06 17:15:58') [ RunTime:0.0000s ]
+
+[ 2017-10-06T17:20:06+08:00 ] 171.221.254.140 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '17628296873' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-10-06T17:20:10+08:00 ] 171.221.254.140 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '17628296874' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0156s ]
+SQL: INSERT INTO `yy_liuyan` (`name`,`sex`,`age`,`tel`,`zzms`,`hospital`,`bs`,`cnmwda`,`zt`,`tjtime`) VALUES ('ceshi','男','14','17628296874','测试提交<br>其他信息：','1','1','b.et.xnekyy.cn/_adminxx/archives_do.php?aid=2377&dopost=viewArchives','0','2017-10-06 17:20:10') [ RunTime:0.0000s ]
+
+[ 2017-10-06T17:21:13+08:00 ] 171.221.254.140 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '17628296877' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: INSERT INTO `yy_liuyan` (`name`,`sex`,`age`,`tel`,`zzms`,`hospital`,`bs`,`address`,`cnmwda`,`zt`,`tjtime`) VALUES ('ceshi','男','14','17628296877','dfasfdfdsfd<br>其他信息：','1','1','b.et.xnekyy.cn/fyx/cdz/by/2377.html?1507280119','b.et.xnekyy.cn/_adminxx/archives_do.php?aid=2377&dopost=viewArchives','0','2017-10-06 17:21:13') [ RunTime:0.0000s ]
+
+[ 2017-10-06T17:47:34+08:00 ] 171.221.254.140 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '17628296879' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0156s ]
+SQL: INSERT INTO `yy_liuyan` (`name`,`sex`,`age`,`tel`,`zzms`,`hospital`,`bs`,`address`,`cnmwda`,`zt`,`tjtime`) VALUES ('ceshi','男','18','17628296879','测试的发发大水范德萨的舒服点地方撒阿打算<br>其他信息：孩子现在主要有什么症状:频繁眨眼,<br/>目前接受过哪些治疗:西药,<br/>您更想了解的是：病情咨询','1','1','b.et.xnekyy.cn/fyx/cdz/by/2377.html?1507282240','b.et.xnekyy.cn/_adminxx/archives_do.php?aid=2377&dopost=viewArchives','0','2017-10-06 17:47:34') [ RunTime:0.0000s ]
+

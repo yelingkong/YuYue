@@ -1,0 +1,24 @@
+[ 2017-10-03T09:45:27+08:00 ] 127.0.0.1 /liuyan.php/liuyan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001555s ]
+ERR: 无法加载模块:Liuyan
+
+[ 2017-10-03T10:05:21+08:00 ] 127.0.0.1 /liuyan.php/index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+ERR: 无法加载模块:Index
+
+[ 2017-10-03T10:05:35+08:00 ] 127.0.0.1 /liuyan.php?m=Liuyan&c=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+ERR: 无法加载模块:Liuyan
+
+[ 2017-10-03T10:05:41+08:00 ] 127.0.0.1 /liuyan.php?m=index&c=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+ERR: 无法加载模块:Index
+

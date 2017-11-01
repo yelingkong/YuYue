@@ -1,0 +1,636 @@
+[ 2017-10-11T00:51:49+08:00 ] 58.16.124.219 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '15186085313' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP D:\wwwroot\yuyue\wwwroot\ThinkPHP\Common\functions.php 第 1618 行.
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: INSERT INTO `yy_liuyan` (`name`,`age`,`sex`,`tel`,`zzms`,`hospital`,`bs`,`suburl`,`ip`,`city`,`zt`,`tjtime`) VALUES ('陈鑫','22','女','15186085313','发育不良，矮小<br>其他信息：','2','1','wap.klszxyy.com/yyjj/news/2093.html','58.16.124.219','贵州省黔南布依族苗族自治州','0','2017-10-11 00:51:49') [ RunTime:0.0000s ]
+
+[ 2017-10-11T00:51:49+08:00 ] 58.16.124.219 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '15186085313' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP D:\wwwroot\yuyue\wwwroot\ThinkPHP\Common\functions.php 第 1618 行.
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: INSERT INTO `yy_liuyan` (`name`,`age`,`sex`,`tel`,`zzms`,`hospital`,`bs`,`suburl`,`ip`,`city`,`zt`,`tjtime`) VALUES ('陈鑫','22','女','15186085313','发育不良，矮小<br>其他信息：','2','1','wap.klszxyy.com/yyjj/news/2093.html','58.16.124.219','贵州省黔南布依族苗族自治州','0','2017-10-11 00:51:49') [ RunTime:0.0000s ]
+
+[ 2017-10-11T01:25:05+08:00 ] 58.16.124.219 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '15186085313' LIMIT 1   [ RunTime:0.0156s ]
+
+[ 2017-10-11T01:25:19+08:00 ] 58.16.124.219 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '15186085313' LIMIT 1   [ RunTime:0.0156s ]
+
+[ 2017-10-11T02:55:18+08:00 ] 36.5.71.31 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '17755157620' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP D:\wwwroot\yuyue\wwwroot\ThinkPHP\Common\functions.php 第 1618 行.
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: INSERT INTO `yy_liuyan` (`name`,`sex`,`age`,`height`,`tel`,`zzms`,`hospital`,`bs`,`suburl`,`ip`,`city`,`zt`,`tjtime`) VALUES ('史怡如','女','13','1','17755157620','undefined<br>其他信息：目前采用过哪些增高方法：运动锻炼,<br/>您想了解的是:身高预测','1','1','4gzg.83366666.cn/fyjc/ghxjc/759.html','36.5.71.31','安徽省合肥市','0','2017-10-11 02:55:18') [ RunTime:0.0000s ]
+
+[ 2017-10-11T02:55:22+08:00 ] 36.5.71.31 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '17755157620' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-10-11T02:55:23+08:00 ] 36.5.71.31 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '17755157620' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-10-11T08:19:14+08:00 ] 171.221.254.140 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '17655544441' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP D:\wwwroot\yuyue\wwwroot\ThinkPHP\Common\functions.php 第 1618 行.
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0156s ]
+SQL: INSERT INTO `yy_liuyan` (`name`,`age`,`time`,`tel`,`zzms`,`hospital`,`bs`,`suburl`,`ip`,`city`,`zt`,`tjtime`) VALUES ('ceshi','14','2017/10/11 08:18','17655544441','12134564789<br>其他信息：','1','1','b.ax.xnekyy.cn/zt/zghjq/','171.221.254.140','四川省成都市','0','2017-10-11 08:19:14') [ RunTime:0.0000s ]
+
+[ 2017-10-11T08:24:56+08:00 ] 61.164.246.180 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '13419312998' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: INSERT INTO `yy_liuyan` (`name`,`age`,`sex`,`tel`,`zzms`,`hospital`,`bs`,`suburl`,`ip`,`city`,`zt`,`tjtime`) VALUES ('林聃','两岁9个月','女','13419312998','就晚上尿床<br>其他信息：孩子现在主要有什么症状:晚上尿床,<br/>目前接受过哪些治疗:未接受过治疗,<br/>您更想了解的是：治疗方法','1','1','4g.xnekyy.cn/nfm/ynz/by/83.html','117.177.15.65','四川省广安市','0','2017-10-11 08:24:56') [ RunTime:0.0000s ]
+
+[ 2017-10-11T08:26:09+08:00 ] 123.151.152.141 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '15203585981' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP D:\wwwroot\yuyue\wwwroot\ThinkPHP\Common\functions.php 第 1618 行.
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: INSERT INTO `yy_liuyan` (`name`,`age`,`sex`,`tel`,`zzms`,`hospital`,`bs`,`suburl`,`ip`,`city`,`zt`,`tjtime`) VALUES ('任怡静静','6','女','15203585981','平时吧她也什么也好就是上课了老是走神，不听课，老爱跟其它的人说话，玩，回来家里也一说写字就哭<br>其他信息：','3','1','5gek.tywybbyy.com/ddz/zl/414.html#b-ddz-4919','183.202.241.224','山西省吕梁市','0','2017-10-11 08:26:09') [ RunTime:0.0000s ]
+
+[ 2017-10-11T08:30:08+08:00 ] 171.221.254.140 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '15076105533' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP D:\wwwroot\yuyue\wwwroot\ThinkPHP\Common\functions.php 第 1618 行.
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0156s ]
+SQL: INSERT INTO `yy_liuyan` (`name`,`sex`,`age`,`tel`,`zzms`,`hospital`,`bs`,`suburl`,`ip`,`city`,`zt`,`tjtime`) VALUES ('ceshi','男','14','15076105533','fdsfddsf<br>其他信息：','1','1','b.et.xnekyy.cn/yyjj/news/2406.html','171.221.254.140','四川省成都市','0','2017-10-11 08:30:08') [ RunTime:0.0000s ]
+
+[ 2017-10-11T08:43:40+08:00 ] 220.166.112.54 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '13982377458' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP D:\wwwroot\yuyue\wwwroot\ThinkPHP\Common\functions.php 第 1618 行.
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0313s ]
+SQL: INSERT INTO `yy_liuyan` (`name`,`sex`,`age`,`tel`,`jcxm`,`zzms`,`hospital`,`bs`,`suburl`,`ip`,`city`,`zt`,`tjtime`) VALUES ('李诺','女','10','13982377458','注意力不集中','上课发神，注意力不集中<br>其他信息：','1','1','4g.xnekyy.com/zt/zyl/#bsj2-ddz-zyl-u5640','220.166.112.54','四川省攀枝花市','0','2017-10-11 08:43:40') [ RunTime:0.0000s ]
+
+[ 2017-10-11T09:24:45+08:00 ] 118.73.12.35 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '18734799299' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP D:\wwwroot\yuyue\wwwroot\ThinkPHP\Common\functions.php 第 1618 行.
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0156s ]
+SQL: INSERT INTO `yy_liuyan` (`name`,`age`,`sex`,`tel`,`zzms`,`hospital`,`bs`,`suburl`,`ip`,`city`,`zt`,`tjtime`) VALUES ('李金洋','8','男','18734799299','两年多了，没见孩子长，8岁的男孩一米一二，想给孩子做个全面的检查，看看<br>其他信息：目前采用过哪些增高方法：饮食营养,<br/>您想了解的是:身高预测,<br/>您想了解的是:长高方法','3','1','5gek.tywybbyy.com/axz/zl/780.html','118.73.12.35','山西省临汾市','0','2017-10-11 09:24:45') [ RunTime:0.0000s ]
+
+[ 2017-10-11T09:24:46+08:00 ] 118.73.12.35 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '18734799299' LIMIT 1   [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP D:\wwwroot\yuyue\wwwroot\ThinkPHP\Common\functions.php 第 1618 行.
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: INSERT INTO `yy_liuyan` (`name`,`age`,`sex`,`tel`,`zzms`,`hospital`,`bs`,`suburl`,`ip`,`city`,`zt`,`tjtime`) VALUES ('李金洋','8','男','18734799299','两年多了，没见孩子长，8岁的男孩一米一二，想给孩子做个全面的检查，看看<br>其他信息：目前采用过哪些增高方法：饮食营养,<br/>您想了解的是:身高预测,<br/>您想了解的是:长高方法','3','1','5gek.tywybbyy.com/axz/zl/780.html','118.73.12.35','山西省临汾市','0','2017-10-11 09:24:46') [ RunTime:0.0000s ]
+
+[ 2017-10-11T10:02:12+08:00 ] 112.195.227.233 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '13778758437' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP D:\wwwroot\yuyue\wwwroot\ThinkPHP\Common\functions.php 第 1618 行.
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: INSERT INTO `yy_liuyan` (`name`,`sex`,`height`,`age`,`tel`,`time`,`zzms`,`hospital`,`bs`,`suburl`,`ip`,`city`,`zt`,`tjtime`) VALUES ('牟文涛','男','16','15','13778758437','2017-10-11','undefined<br>其他信息：','1','1','zg.xnekyy.cn/zt/xgj/','112.195.227.233','四川省雅安市','0','2017-10-11 10:02:12') [ RunTime:0.0156s ]
+
+[ 2017-10-11T10:02:12+08:00 ] 112.195.227.233 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '13778758437' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-10-11T10:20:05+08:00 ] 110.182.131.200 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '13467119997' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP D:\wwwroot\yuyue\wwwroot\ThinkPHP\Common\functions.php 第 1618 行.
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: INSERT INTO `yy_liuyan` (`name`,`age`,`sex`,`tel`,`zzms`,`hospital`,`bs`,`suburl`,`ip`,`city`,`zt`,`tjtime`) VALUES ('闻艳青','37','女','13467119997','<br>其他信息：孩子现在主要有什么症状:频繁眨眼,<br/>目前接受过哪些治疗:未接受过治疗,<br/>您更想了解的是：病情咨询','3','1','4ger.zxyyxc.com/cdz/zl/544.html','110.182.131.200','山西省临汾市','0','2017-10-11 10:20:05') [ RunTime:0.0000s ]
+
+[ 2017-10-11T10:42:08+08:00 ] 171.221.254.140 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-11T10:42:56+08:00 ] 171.221.254.140 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-11T10:43:20+08:00 ] 171.221.254.140 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-11T10:45:14+08:00 ] 171.221.254.140 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-11T10:45:32+08:00 ] 171.221.254.140 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-11T10:45:42+08:00 ] 171.221.254.140 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-11T10:48:30+08:00 ] 171.221.254.140 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '17658742411' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP D:\wwwroot\yuyue\wwwroot\ThinkPHP\Common\functions.php 第 1618 行.
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: INSERT INTO `yy_liuyan` (`name`,`age`,`sex`,`tel`,`zzms`,`hospital`,`bs`,`suburl`,`ip`,`city`,`zt`,`tjtime`) VALUES ('ceshui','','男','17658742411','<br>其他信息：','1','1','4g.xnekyy.cn/fyx/ddz/by/132.html','171.221.254.140','四川省成都市','0','2017-10-11 10:48:30') [ RunTime:0.0000s ]
+
+[ 2017-10-11T10:50:08+08:00 ] 218.77.94.253 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '13595927797' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP D:\wwwroot\yuyue\wwwroot\ThinkPHP\Common\functions.php 第 1618 行.
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: INSERT INTO `yy_liuyan` (`name`,`age`,`sex`,`tel`,`zzms`,`hospital`,`bs`,`suburl`,`ip`,`city`,`zt`,`tjtime`) VALUES ('吴雨萱','两岁三个月','女','13595927797','会说话，但是不说，也不喊人，就会喊爸妈，会自言自语，跟小朋友一起玩也只是看，笑，就是不说话，被陌生人抱着，就只会一直盯看，不哭不闹！<br>其他信息：孩子现在主要有什么症状:不爱说话,<br/>孩子现在主要有什么症状:表情淡漠,<br/>目前接受过哪些治疗:未接受过治疗,<br/>您更想了解的是：病情咨询,<br/>您更想了解的是：治疗方法,<br/>您更想了解的是：治疗费用,<br/>您更想了解的是：治疗周期','2','1','wap.gzrc120.com/fyx/zbz/fy/353.html#bsj-zbz-yy-2859','218.77.94.253','湖南省益阳市','0','2017-10-11 10:50:08') [ RunTime:0.0156s ]
+
+[ 2017-10-11T10:50:27+08:00 ] 218.77.94.253 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '13595927797' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-10-11T10:50:51+08:00 ] 171.221.254.140 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '176996655421' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP D:\wwwroot\yuyue\wwwroot\ThinkPHP\Common\functions.php 第 1618 行.
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0156s ]
+SQL: INSERT INTO `yy_liuyan` (`name`,`sex`,`age`,`tel`,`time`,`jcxm`,`zzms`,`hospital`,`bs`,`suburl`,`ip`,`city`,`zt`,`tjtime`) VALUES ('ces','男','','176996655421','','内分泌科','<br>其他信息：','1','2','b.weixin.xnekyy.cn/yyjj/news/1753.html?1507689986','171.221.254.140','四川省成都市','0','2017-10-11 10:50:51') [ RunTime:0.0000s ]
+
+[ 2017-10-11T11:39:17+08:00 ] 123.151.138.58 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '18234453386' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP D:\wwwroot\yuyue\wwwroot\ThinkPHP\Common\functions.php 第 1618 行.
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: INSERT INTO `yy_liuyan` (`name`,`age`,`sex`,`tel`,`zzms`,`hospital`,`bs`,`suburl`,`ip`,`city`,`zt`,`tjtime`) VALUES ('蓓蓓','3','女','18234453386','宝贝好像听不懂大人说话，说话也只是呜哇呜哇吚吚哑哑的，干什么都只是知道拉着大人的手，<br>其他信息：孩子现在主要有什么症状:不会说话,<br/>目前接受过哪些治疗:未接受过治疗,<br/>您更想了解的是：病情咨询','3','1','5gek.tywybbyy.com/yyza/zl/620.html','110.177.88.105','山西省太原市','0','2017-10-11 11:39:17') [ RunTime:0.0156s ]
+
+[ 2017-10-11T11:46:50+08:00 ] 61.164.246.180 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '18402854317' LIMIT 1   [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0313s ]
+SQL: INSERT INTO `yy_liuyan` (`name`,`sex`,`age`,`tel`,`zzms`,`hospital`,`bs`,`suburl`,`ip`,`city`,`zt`,`tjtime`) VALUES ('林雪','女','21','18402854317','undefined<br>其他信息：目前采用过哪些增高方法：未采用增高方法,<br/>您想了解的是:长高方法','1','1','zg.xnekyy.com/xgjb/axz/zl/956.html','117.136.63.79','四川省','0','2017-10-11 11:46:50') [ RunTime:0.0000s ]
+
+[ 2017-10-11T11:48:14+08:00 ] 111.122.222.5 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '15286309288' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP D:\wwwroot\yuyue\wwwroot\ThinkPHP\Common\functions.php 第 1618 行.
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0156s ]
+SQL: INSERT INTO `yy_liuyan` (`name`,`sex`,`age`,`tel`,`zzms`,`hospital`,`bs`,`suburl`,`ip`,`city`,`zt`,`tjtime`) VALUES ('潘靖之','男','8岁','15286309288','我儿子7岁10个月了，身高才有114厘米，不知道是什么原因？作为家长我很是着急！<br>其他信息：','2','1','ek.gzrc120.net/nfm/axz/zl/20.html#bpc-zg-3660','111.122.222.5','贵州省黔东南苗族侗族自治州','0','2017-10-11 11:48:14') [ RunTime:0.0000s ]
+
+[ 2017-10-11T11:48:24+08:00 ] 111.122.222.5 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '15286309288' LIMIT 1   [ RunTime:0.0156s ]
+
+[ 2017-10-11T11:56:57+08:00 ] 171.220.16.37 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '18113766625' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP D:\wwwroot\yuyue\wwwroot\ThinkPHP\Common\functions.php 第 1618 行.
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: INSERT INTO `yy_liuyan` (`name`,`sex`,`tel`,`zzms`,`hospital`,`bs`,`suburl`,`ip`,`city`,`zt`,`tjtime`) VALUES ('王子优','女','18113766625','孩子现在一岁一个月，好动，只会简单的叫妈妈和爸爸，十一个月走路，到现在走的不是太好，习惯性激动<br>其他信息：','1','1','4g.xnekyy.com/zt/ddzzz/#bsj2-ddz-zhgz-326','171.220.16.37','四川省成都市','0','2017-10-11 11:56:57') [ RunTime:0.0000s ]
+
+[ 2017-10-11T11:57:11+08:00 ] 171.220.16.37 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '18113766625' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-10-11T12:04:03+08:00 ] 61.164.246.180 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '18485690852' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: INSERT INTO `yy_liuyan` (`name`,`age`,`sex`,`tel`,`zzms`,`hospital`,`bs`,`suburl`,`ip`,`city`,`zt`,`tjtime`) VALUES ('李昌萱','15','男','18485690852','<br>其他信息：目前采用过哪些增高方法：运动锻炼,<br/>目前采用过哪些增高方法：增高药,<br/>您想了解的是:身高预测','2','1','wap.gzrc120.com/nfm/axz/jc/25.html#bsj-ax-zl-4124','223.104.95.150','贵州省','0','2017-10-11 12:04:03') [ RunTime:0.0000s ]
+
+[ 2017-10-11T12:27:44+08:00 ] 61.164.246.180 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '18784291461' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0156s ]
+SQL: INSERT INTO `yy_liuyan` (`name`,`sex`,`height`,`age`,`tel`,`zzms`,`hospital`,`bs`,`suburl`,`ip`,`city`,`zt`,`tjtime`) VALUES ('任豪','男','167','16','18784291461','undefined<br>其他信息：','1','1','zg.xnekyy.com/zt/zhanggao/#b320x','117.174.0.217','四川省南充市','0','2017-10-11 12:27:44') [ RunTime:0.0000s ]
+
+[ 2017-10-11T12:34:07+08:00 ] 61.164.246.180 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '13981114366' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: INSERT INTO `yy_liuyan` (`name`,`sex`,`tel`,`zzms`,`hospital`,`bs`,`suburl`,`ip`,`city`,`zt`,`tjtime`) VALUES ('高瑜蔓','女','13981114366','注意力不集中<br>其他信息：','1','1','4g.xnekyy.com/zt/ddzzz/#bsj2-ddz-zl-8437','117.177.110.101','四川省绵阳市','0','2017-10-11 12:34:07') [ RunTime:0.0000s ]
+
+[ 2017-10-11T12:42:31+08:00 ] 182.140.175.143 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '15982719804' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP D:\wwwroot\yuyue\wwwroot\ThinkPHP\Common\functions.php 第 1618 行.
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0156s ]
+SQL: INSERT INTO `yy_liuyan` (`name`,`sex`,`age`,`tel`,`zzms`,`hospital`,`bs`,`suburl`,`ip`,`city`,`zt`,`tjtime`) VALUES ('杨小平','男','16','15982719804','undefined<br>其他信息：目前采用过哪些增高方法：未采用增高方法,<br/>您想了解的是:长高方法','1','1','zg.xnekyy120.cn/zgff/kxzg/1110.html#s1','171.90.20.14','四川省巴中市','0','2017-10-11 12:42:31') [ RunTime:0.0000s ]
+
+[ 2017-10-11T12:57:39+08:00 ] 1.68.37.129 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '15135397606' LIMIT 1   [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP D:\wwwroot\yuyue\wwwroot\ThinkPHP\Common\functions.php 第 1618 行.
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0156s ]
+SQL: INSERT INTO `yy_liuyan` (`name`,`age`,`sex`,`tel`,`zzms`,`hospital`,`bs`,`suburl`,`ip`,`city`,`zt`,`tjtime`) VALUES ('张红卫','17','男','15135397606','<br>其他信息：目前采用过哪些增高方法：运动锻炼,<br/>您想了解的是:长高方法','3','1','5gek.tywybbyy.com/axz/jc/323.html','1.68.37.129','山西省太原市','0','2017-10-11 12:57:39') [ RunTime:0.0313s ]
+
+[ 2017-10-11T13:12:38+08:00 ] 182.140.177.165 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '18190016376' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP D:\wwwroot\yuyue\wwwroot\ThinkPHP\Common\functions.php 第 1618 行.
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0156s ]
+SQL: INSERT INTO `yy_liuyan` (`name`,`sex`,`age`,`tel`,`zzms`,`hospital`,`bs`,`suburl`,`ip`,`city`,`zt`,`tjtime`) VALUES ('祝若航','男','3','18190016376','undefined<br>其他信息：目前采用过哪些增高方法：运动锻炼,<br/>目前采用过哪些增高方法： 注射生长激素,<br/>您想了解的是:身高预测','1','1','zg.xnekyy.com/zgff/yszg/1080.html#bsj','125.68.29.206','四川省德阳市','0','2017-10-11 13:12:38') [ RunTime:0.0000s ]
+
+[ 2017-10-11T13:12:40+08:00 ] 182.140.177.165 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '18190016376' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-10-11T13:13:12+08:00 ] 125.65.41.107 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '13100168794' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP D:\wwwroot\yuyue\wwwroot\ThinkPHP\Common\functions.php 第 1618 行.
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0156s ]
+SQL: INSERT INTO `yy_liuyan` (`name`,`age`,`sex`,`tel`,`zzms`,`hospital`,`bs`,`suburl`,`ip`,`city`,`zt`,`tjtime`) VALUES ('孔伟杰','3','男','13100168794','<br>其他信息：孩子现在主要有什么症状:吐词不清,<br/>目前接受过哪些治疗:未接受过治疗,<br/>您更想了解的是：治疗方法','3','1','5gek.tyzx120.net/yyza/zl/615.html','36.102.213.27','内蒙古自治区','0','2017-10-11 13:13:12') [ RunTime:0.0000s ]
+
+[ 2017-10-11T13:20:16+08:00 ] 171.221.254.140 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '153478741254' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP D:\wwwroot\yuyue\wwwroot\ThinkPHP\Common\functions.php 第 1618 行.
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0156s ]
+SQL: INSERT INTO `yy_liuyan` (`name`,`age`,`sex`,`tel`,`zzms`,`hospital`,`bs`,`suburl`,`ip`,`city`,`zt`,`tjtime`) VALUES ('ceshi','14','男','153478741254','<br>其他信息：目前接受过哪些治疗:西药,<br/>目前接受过哪些治疗:行为训练,<br/>您更想了解的是：病情咨询','1','1','4g.xnekyy.cn/fyx/ddz/by/132.html','171.221.254.140','四川省成都市','0','2017-10-11 13:20:16') [ RunTime:0.0000s ]
+
+[ 2017-10-11T13:22:49+08:00 ] 171.221.254.140 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '176558877995' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP D:\wwwroot\yuyue\wwwroot\ThinkPHP\Common\functions.php 第 1618 行.
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0156s ]
+SQL: INSERT INTO `yy_liuyan` (`name`,`age`,`sex`,`tel`,`zzms`,`hospital`,`bs`,`suburl`,`ip`,`city`,`zt`,`tjtime`) VALUES ('ceshi','14','男','176558877995','<br>其他信息：目前接受过哪些治疗:西药,<br/>目前接受过哪些治疗:中成药','1','1','4g.xnekyy.cn/fyx/ddz/by/132.html','171.221.254.140','四川省成都市','0','2017-10-11 13:22:49') [ RunTime:0.0000s ]
+
+[ 2017-10-11T13:23:14+08:00 ] 171.221.254.140 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '17655887799' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP D:\wwwroot\yuyue\wwwroot\ThinkPHP\Common\functions.php 第 1618 行.
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: INSERT INTO `yy_liuyan` (`name`,`age`,`sex`,`tel`,`zzms`,`hospital`,`bs`,`suburl`,`ip`,`city`,`zt`,`tjtime`) VALUES ('ceshi','14','男','17655887799','dddddddd<br>其他信息：目前接受过哪些治疗:西药,<br/>目前接受过哪些治疗:中成药','1','1','4g.xnekyy.cn/fyx/ddz/by/132.html','171.221.254.140','四川省成都市','0','2017-10-11 13:23:14') [ RunTime:0.0000s ]
+
+[ 2017-10-11T13:26:36+08:00 ] 61.164.246.180 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '13310461859' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: INSERT INTO `yy_liuyan` (`name`,`age`,`sex`,`tel`,`zzms`,`hospital`,`bs`,`suburl`,`ip`,`city`,`zt`,`tjtime`) VALUES ('杨可','16','女','13310461859','<br>其他信息：目前采用过哪些增高方法：饮食营养,<br/>您想了解的是:长高方法','2','1','wap.gzrc120.com/nfm/axz/zl/20.html#bsj-ax-bx-250','117.135.229.21','贵州省铜仁市','0','2017-10-11 13:26:35') [ RunTime:0.0156s ]
+
+[ 2017-10-11T13:27:02+08:00 ] 171.221.254.140 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '15076105544' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-10-11T13:27:07+08:00 ] 171.221.254.140 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '15076105540' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP D:\wwwroot\yuyue\wwwroot\ThinkPHP\Common\functions.php 第 1618 行.
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0156s ]
+SQL: INSERT INTO `yy_liuyan` (`name`,`age`,`sex`,`tel`,`zzms`,`hospital`,`bs`,`suburl`,`ip`,`city`,`zt`,`tjtime`) VALUES ('ceshi','14','男','15076105540','fdsfddfs<br>其他信息：','2','1','wap.klszxyy.com/yyjj/news/2092.html','171.221.254.140','四川省成都市','0','2017-10-11 13:27:07') [ RunTime:0.0000s ]
+
+[ 2017-10-11T13:33:47+08:00 ] 171.221.254.140 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '18877443351' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP D:\wwwroot\yuyue\wwwroot\ThinkPHP\Common\functions.php 第 1618 行.
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: INSERT INTO `yy_liuyan` (`name`,`age`,`sex`,`tel`,`zzms`,`hospital`,`bs`,`suburl`,`ip`,`city`,`zt`,`tjtime`) VALUES ('ceshi','','男','18877443351','sdssdf<br>其他信息：','2','1','wap.klszxyy.com/fyx/ddz/by/122.html','171.221.254.140','四川省成都市','0','2017-10-11 13:33:47') [ RunTime:0.0000s ]
+
+[ 2017-10-11T13:39:30+08:00 ] 125.65.41.107 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '18735230167' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP D:\wwwroot\yuyue\wwwroot\ThinkPHP\Common\functions.php 第 1618 行.
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: INSERT INTO `yy_liuyan` (`name`,`age`,`sex`,`tel`,`zzms`,`hospital`,`bs`,`suburl`,`ip`,`city`,`zt`,`tjtime`) VALUES ('吴彦博','9','男','18735230167','<br>其他信息：孩子现在主要有什么症状:注意力不集中,<br/>目前接受过哪些治疗:行为训练,<br/>您更想了解的是：治疗方法','3','1','5gek.tywybbyy.com/ddz/zl/412.html#b-ddz-4803','59.63.249.233','江西省南昌市','0','2017-10-11 13:39:30') [ RunTime:0.0000s ]
+
+[ 2017-10-11T13:40:16+08:00 ] 123.151.153.35 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '13546174683' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP D:\wwwroot\yuyue\wwwroot\ThinkPHP\Common\functions.php 第 1618 行.
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0156s ]
+SQL: INSERT INTO `yy_liuyan` (`name`,`age`,`sex`,`tel`,`zzms`,`hospital`,`bs`,`suburl`,`ip`,`city`,`zt`,`tjtime`) VALUES ('荀星博','7','男','13546174683','上课不认真听讲<br>其他信息：孩子出现状况的主要原因:环境原因,<br/>目前接受过哪些治疗:未接受过治疗,<br/>您更想了解的是：病情咨询','3','1','4ger.zxyyxc.com/zylbjz/505.html','218.26.54.109','山西省晋城市','0','2017-10-11 13:40:16') [ RunTime:0.0000s ]
+
+[ 2017-10-11T13:45:51+08:00 ] 171.126.186.17 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '13513560886' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP D:\wwwroot\yuyue\wwwroot\ThinkPHP\Common\functions.php 第 1618 行.
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: INSERT INTO `yy_liuyan` (`name`,`age`,`sex`,`tel`,`zzms`,`hospital`,`bs`,`suburl`,`ip`,`city`,`zt`,`tjtime`) VALUES ('王小子','18','男','13513560886','目前身高168<br>其他信息：目前采用过哪些增高方法：未采用增高方法,<br/>您想了解的是:身高预测,<br/>您想了解的是:长高方法,<br/>目前采用过哪些增高方法：增高药,<br/>您想了解的是:增高效果','3','1','5gek.tywybbyy.com/axz/zl/780.html','171.126.186.17','山西省晋城市','0','2017-10-11 13:45:51') [ RunTime:0.0000s ]
+
+[ 2017-10-11T13:48:04+08:00 ] 171.221.254.140 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '15478418714' LIMIT 1   [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP D:\wwwroot\yuyue\wwwroot\ThinkPHP\Common\functions.php 第 1618 行.
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: INSERT INTO `yy_liuyan` (`name`,`age`,`sex`,`tel`,`time`,`zzms`,`hospital`,`bs`,`suburl`,`ip`,`city`,`zt`,`tjtime`) VALUES ('ceshi','14','男','15478418714','2017-10-11','fasdffdsd<br>其他信息：','2','1','b.wap.klszxyy.com/fyx/ddz/','171.221.254.140','四川省成都市','0','2017-10-11 13:48:04') [ RunTime:0.0000s ]
+
+[ 2017-10-11T13:49:55+08:00 ] 171.221.254.140 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '15478418715' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP D:\wwwroot\yuyue\wwwroot\ThinkPHP\Common\functions.php 第 1618 行.
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0000s ]
+SQL: INSERT INTO `yy_liuyan` (`name`,`age`,`sex`,`tel`,`time`,`zzms`,`hospital`,`bs`,`suburl`,`ip`,`city`,`zt`,`tjtime`) VALUES ('ceshi','14','男','15478418715','2017-10-11','fasdffdsd<br>其他信息：','2','1','b.wap.klszxyy.com/fyx/ddz/','171.221.254.140','四川省成都市','0','2017-10-11 13:49:55') [ RunTime:0.0000s ]
+
+[ 2017-10-11T14:17:31+08:00 ] 171.221.254.140 /message.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yy_liuyan` WHERE `tel` = '15076445511' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: HTTP_X_REAL_IP D:\wwwroot\yuyue\wwwroot\ThinkPHP\Common\functions.php 第 1618 行.
+SQL: SHOW COLUMNS FROM `yy_liuyan` [ RunTime:0.0156s ]
+SQL: INSERT INTO `yy_liuyan` (`name`,`sex`,`age`,`tel`,`zzms`,`hospital`,`bs`,`suburl`,`ip`,`city`,`zt`,`tjtime`) VALUES ('ceshi','男','14','15076445511','dsafdsdf<br>其他信息：','2','1','b.ek.klszxyy.com/fyx/ddz/zz/1347.html','171.221.254.140','四川省成都市','0','2017-10-11 14:17:31') [ RunTime:0.0313s ]
+
