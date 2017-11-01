@@ -53,38 +53,25 @@ class LiuyanController extends CommonController {
 
 	public function Lately() {
 		$liu = array();
-		$times = array();
+		$counts = array();
 		$shuliang = array();
 		$tianshu = 30;
+		$hospital = M('hospital');
 		$liuyans = M('Liuyan');
-		for ($x = 0; $x <= $tianshu; $x++) {
-			$datas = date("d", time() + ($x - $tianshu) * 24 * 60 * 60);
-			$start = date("Y-m-d 00:00:00", time() + ($x - $tianshu) * 24 * 60 * 60);
-			$end = date("Y-m-d 23:59:59", time() + ($x - $tianshu) * 24 * 60 * 60);
-			$condition['tjtime'] = array(array('egt', $start), array('elt', $end));
-			$condition['zt'] = array('between', '0,1');
-			$times[$x] = $datas;
-			$condition['hospital'] = array('eq', 1);
-			$count = $liuyans
-				->where($condition)
-				->count();
-
-			$count_xinan[$x] = $count;
-			$condition['hospital'] = array('eq', 3);
-			$count = $liuyans
-				->where($condition)
-				->count();
-			$count_taiyuan[$x] = $count;
-			$condition['hospital'] = array('eq', 2);
-			$count = $liuyans
-				->where($condition)
-				->count();
-			$count_guizhou[$x] = $count;
-		}
-		$liu['times'] = $times;
-		$liu['count_xinan'] = $count_xinan;
-		$liu['count_guizhou'] = $count_guizhou;
-		$liu['count_taiyuan'] = $count_taiyuan;
+		$condition['hstatus'] = array('eq', 1);
+		$hospital_count = $hospital
+			->where($condition)
+			->count();
+		$hospital_list = $hospital
+			->where($condition)
+			->select();
+		$liu['times'] = Lately_time($tianshu);
+		for ($h = 0; $h < $hospital_count; $h++) {
+			$liu['hospital'][$h] = $hospital_list[$h]['hname'];
+			$counts = Lately_zi($tianshu, $hospital_list[$h]['hid']);
+			$liu['hospital'][$h] =
+			$liu['hospitals'][$h] = array('name' => $hospital_list[$h]['hname'], 'type' => 'line', 'stack' => '总量', 'data' => $counts);
+		};
 		$this->ajaxReturn($liu, 'JSON');
 	}
 	/*状态修改设置*/

@@ -115,6 +115,34 @@ function isThumb($thumb) {
 	}
 	return '无';
 }
+function Lately_time($tianshu) {
+	/*返回最近天数的数组*/
+	$times = array();
+	for ($x = 0; $x <= $tianshu; $x++) {
+		$datas = date("d", time() + ($x - $tianshu) * 24 * 60 * 60);
+		$times[$x] = $datas;
+	}
+	return $times;
+}
+function Lately_zi($tianshu, $hospitalid) {
+	/*返回指定天数的医院留言当天数量*/
+	$counts = array();
+	$liuyans = M('Liuyan');
+	for ($x = 0; $x <= $tianshu; $x++) {
+		$datas = date("d", time() + ($x - $tianshu) * 24 * 60 * 60);
+		$start = date("Y-m-d 00:00:00", time() + ($x - $tianshu) * 24 * 60 * 60);
+		$end = date("Y-m-d 23:59:59", time() + ($x - $tianshu) * 24 * 60 * 60);
+		$condition['tjtime'] = array(array('egt', $start), array('elt', $end));
+		$condition['zt'] = array('between', '0,1');
+		$times[$x] = $datas;
+		$condition['hospital'] = array('eq', $hospitalid);
+		$count = $liuyans
+			->where($condition)
+			->count();
+		$counts[$x] = $count;
+	}
+	return $counts;
+}
 
 /**
 +----------------------------------------------------------
