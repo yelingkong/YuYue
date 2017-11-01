@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 
 <head>
@@ -13,8 +13,54 @@
 
 <body class="layui-layout-body">
     <div class="layui-layout layui-layout-admin">
-        <include file="Index/header" />
-        <include file="Index/nav" />
+        <div class="layui-header">
+    <div class="layui-logo">预约留言管理系统</div>
+    <ul class="layui-nav layui-layout-right">
+        <li class="layui-nav-item">
+            <a href="javascript:;">
+          <img src="http://t.cn/RCzsdCq" class="layui-nav-img"><?php echo getLoginUsername()?></a>
+        </li>
+        <li class="layui-nav-item"><a href="/liuyan.php?c=login&a=loginout">注销</a></li>
+    </ul>
+</div>
+        <div class="layui-side layui-bg-black">
+    <div class="layui-side-scroll">
+        <ul class="layui-nav layui-nav-tree" lay-filter="test">
+            <li class="layui-nav-item layui-nav-itemed">
+                <a class="javascript:;" href="javascript:;">后台菜单<span class="layui-nav-more"></span></a>
+                <dl class="layui-nav-child">
+                    <dd id="shouye">
+                        <a href="/liuyan.php?c=index">首页</a>
+                    </dd>
+                    <dd id="xinan">
+                        <a href="/liuyan.php?c=index&a=xinan">西南</a>
+                    </dd>
+                    <dd id="guizhou">
+                        <a href="/liuyan.php?c=index&a=guizhou">贵州</a>
+                    </dd>
+                    <dd id="taiyuan">
+                        <a href="/liuyan.php?c=index&a=taiyuan">太原</a>
+                    </dd>
+                </dl>
+            </li>
+        </ul>
+    </div>
+</div>
+<script>
+function t_nav() {
+    var paths = document.URL;
+    if (paths.indexOf("xinan") > 0) {
+        $("#xinan").addClass("layui-this");
+    } else if (paths.indexOf("guizhou") > 0) {
+        $("#guizhou").addClass("layui-this");
+    } else if (paths.indexOf("taiyuan") > 0) {
+        $("#taiyuan").addClass("layui-this");
+    } else {
+        $("#shouye").addClass("layui-this");
+    }
+}
+ t_nav();
+</script>
         <div class="layui-body">
             <!-- 内容主体区域 -->
             <div style="padding: 15px;">

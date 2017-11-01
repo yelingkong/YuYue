@@ -9,7 +9,7 @@ class LoginController extends Controller {
 
 	public function index() {
 		$host = get_client_ip();
-		$list = '171.221.254.140';
+		$list = '171.221.254.140,127.0.0.1';
 		if (in_host($host, $list)) {
 			if (session('adminUser')) {
 				$this->redirect('/admin.php?c=index');
