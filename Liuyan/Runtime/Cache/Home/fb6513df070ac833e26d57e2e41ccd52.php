@@ -34,7 +34,7 @@
                         <a href="/liuyan.php?c=index">首页</a>
                     </dd>
                     <?php if(is_array($list)): $k = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($k % 2 );++$k;?><dd id="taiyuan">
-                            <a href="/liuyan.php?c=index&a=liuyan&hospital=<?php echo ($k); ?>"><?php echo ($vo["hname"]); ?></a>
+                            <a href="/liuyan.php?c=index&a=liuyan&hospital=<?php echo ($vo["hid"]); ?>"><?php echo ($vo["hname"]); ?></a>
                         </dd><?php endforeach; endif; else: echo "" ;endif; ?>
                 </dl>
             </li>

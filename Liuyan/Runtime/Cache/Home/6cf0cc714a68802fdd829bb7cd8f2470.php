@@ -24,43 +24,34 @@
         <li class="layui-nav-item"><a href="/liuyan.php?c=login&a=loginout">注销</a></li>
     </ul>
 </div>
-        <div class="layui-side layui-bg-black">
-    <div class="layui-side-scroll">
-        <ul class="layui-nav layui-nav-tree" lay-filter="test">
-            <li class="layui-nav-item layui-nav-itemed">
-                <a class="javascript:;" href="javascript:;">后台菜单<span class="layui-nav-more"></span></a>
-                <dl class="layui-nav-child">
-                    <dd id="shouye">
-                        <a href="/liuyan.php?c=index">首页</a>
-                    </dd>
-                    <dd id="xinan">
-                        <a href="/liuyan.php?c=index&a=xinan">西南</a>
-                    </dd>
-                    <dd id="guizhou">
-                        <a href="/liuyan.php?c=index&a=guizhou">贵州</a>
-                    </dd>
-                    <dd id="taiyuan">
-                        <a href="/liuyan.php?c=index&a=taiyuan">太原</a>
-                    </dd>
-                </dl>
-            </li>
-        </ul>
-    </div>
-</div>
-<script>
-function t_nav() {
-    var paths = document.URL;
-    if (paths.indexOf("xinan") > 0) {
-        $("#xinan").addClass("layui-this");
-    } else if (paths.indexOf("guizhou") > 0) {
-        $("#guizhou").addClass("layui-this");
-    } else if (paths.indexOf("taiyuan") > 0) {
-        $("#taiyuan").addClass("layui-this");
-    } else {
-        $("#shouye").addClass("layui-this");
-    }
-}
- t_nav();
+        <div class="layui-side layui-bg-black">
+    <div class="layui-side-scroll">
+        <ul class="layui-nav layui-nav-tree" lay-filter="test">
+            <li class="layui-nav-item layui-nav-itemed">
+                <a class="javascript:;" href="javascript:;">后台菜单<span class="layui-nav-more"></span></a>
+                <dl class="layui-nav-child">
+                    <dd id="shouye">
+                        <a href="/liuyan.php?c=index">首页</a>
+                    </dd>
+                    <?php if(is_array($list)): $k = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($k % 2 );++$k;?><dd id="hospital_<?php echo ($vo["hid"]); ?>">
+                            <a href="/liuyan.php?c=index&a=liuyan&hospital=<?php echo ($vo["hid"]); ?>"><?php echo ($vo["hname"]); ?></a>
+                        </dd><?php endforeach; endif; else: echo "" ;endif; ?>
+                </dl>
+            </li>
+        </ul>
+    </div>
+</div>
+<script>
+function GetQueryString(name) {
+    var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+    var r = window.location.search.substr(1).match(reg);
+    if (r != null) return unescape(r[2]);
+    return null;
+}
+hospital = GetQueryString("hospital");
+if (hospital) {
+    $("#hospital_" + hospital).addClass("layui-this");
+} else { $("#shouye").addClass("layui-this"); }
 </script>
         <div class="layui-body">
             <!-- 内容主体区域 -->
@@ -73,28 +64,36 @@ function t_nav() {
         </div>
     </div>
     <script>
+    function GetQueryString(name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null) return unescape(r[2]);
+        return null;
+    }
+    hospital = GetQueryString("hospital");
     layui.use('table', function() {
         var table = layui.table;
         table.render({
             elem: '#demo',
-            url: '/liuyan.php?c=liuyan&a=getliuyan',
-            page:true,limit:15,
+            url: '/liuyan.php?c=liuyan&a=getliuyan&hospital='+hospital,
+            page: true,
+            limit: 15,
             cols: [
                 [
-                    { field: 'hospital', title: '医院', width: 60 },
+                    { field: 'hospital', title: '医院', width: 60,templet:'#hospitalTpl' },
                     { field: 'bs', title: '标识', event: 'detail', width: 60, templet: '#bsTpl' },
                     { field: 'name', title: '姓名', event: 'detail', width: 80 },
                     { field: 'age', title: '年龄', event: 'detail', width: 80 },
                     { field: 'sex', title: '性别', event: 'detail', width: 80, templet: '#sexTpl' },
                     { field: 'tel', title: '电话', width: 120 },
-                    { field: 'height',title:'身高', event: 'detail', width: 60 },
-                    { field: 'city',title:'ip', event: 'detail', width: 140, templet: '#ipTpl' },
-                    { field: 'zzms', title:'描述',event: 'detail', width: 80 },
-                    { field: 'tjtime',title:'提交时间', event: 'detail', width: 160 },
-                    { field: 'suburl', title:'提交地址',width: 220, templet: '#subTpl' },
-                    { field: 'time', title:'预约时间',event: 'detail', width: 120, templet: '#timeTpl' },
-                    { field: 'zt', title:'状态',width: 80, event: 'setzt', templet: '#ztTpl' },
-                    { fixed: 'right',title:'操作', width: 80, align: 'center', toolbar: '#barDemo' }
+                    { field: 'height', title: '身高', event: 'detail', width: 60 },
+                    { field: 'city', title: 'ip', event: 'detail', width: 140, templet: '#ipTpl' },
+                    { field: 'zzms', title: '描述', event: 'detail', width: 80 },
+                    { field: 'tjtime', title: '提交时间', event: 'detail', width: 160 },
+                    { field: 'suburl', title: '提交地址', width: 220, templet: '#subTpl' },
+                    { field: 'time', title: '预约时间', event: 'detail', width: 120, templet: '#timeTpl' },
+                    { field: 'zt', title: '状态', width: 80, event: 'setzt', templet: '#ztTpl' },
+                    { fixed: 'right', title: '操作', width: 80, align: 'center', toolbar: '#barDemo' }
                 ]
             ]
         });

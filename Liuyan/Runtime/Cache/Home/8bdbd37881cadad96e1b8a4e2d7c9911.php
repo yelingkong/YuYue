@@ -32,7 +32,7 @@
                     <dd id="shouye">
                         <a href="/liuyan.php?c=index">首页</a>
                     </dd>
-                    <?php if(is_array($list)): $k = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($k % 2 );++$k;?><dd id="taiyuan">
+                    <?php if(is_array($list)): $k = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($k % 2 );++$k;?><dd id="hospital_<?php echo ($vo["hid"]); ?>">
                             <a href="/liuyan.php?c=index&a=liuyan&hospital=<?php echo ($vo["hid"]); ?>"><?php echo ($vo["hname"]); ?></a>
                         </dd><?php endforeach; endif; else: echo "" ;endif; ?>
                 </dl>
@@ -41,31 +41,16 @@
     </div>
 </div>
 <script>
-function t_nav() {
-
-    var paths = document.URL;
-
-    if (paths.indexOf("xinan") > 0) {
-
-        $("#xinan").addClass("layui-this");
-
-    } else if (paths.indexOf("guizhou") > 0) {
-
-        $("#guizhou").addClass("layui-this");
-
-    } else if (paths.indexOf("taiyuan") > 0) {
-
-        $("#taiyuan").addClass("layui-this");
-
-    } else {
-
-        $("#shouye").addClass("layui-this");
-
-    }
-
+function GetQueryString(name) {
+    var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+    var r = window.location.search.substr(1).match(reg);
+    if (r != null) return unescape(r[2]);
+    return null;
 }
-
-t_nav();
+hospital = GetQueryString("hospital");
+if (hospital) {
+    $("#hospital_" + hospital).addClass("layui-this");
+} else { $("#shouye").addClass("layui-this"); }
 </script>
         <div class="layui-body">
             <div style="padding: 15px;">

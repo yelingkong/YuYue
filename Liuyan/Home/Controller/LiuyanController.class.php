@@ -69,7 +69,6 @@ class LiuyanController extends CommonController {
 		for ($h = 0; $h < $hospital_count; $h++) {
 			$liu['hospital'][$h] = $hospital_list[$h]['hname'];
 			$counts = Lately_zi($tianshu, $hospital_list[$h]['hid']);
-			$liu['hospital'][$h] =
 			$liu['hospitals'][$h] = array('name' => $hospital_list[$h]['hname'], 'type' => 'line', 'stack' => '总量', 'data' => $counts);
 		};
 		$this->ajaxReturn($liu, 'JSON');

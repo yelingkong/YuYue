@@ -32,7 +32,7 @@ class IndexController extends CommonController {
 		$adminCount = D("Admin")->getLastLoginUsers();
 		$this->assign('liuyan', $liuyan); /*调用留言列表*/
 		$this->assign('admincount', $adminCount); /*调用用户信息*/
-		$this->display('index/index');
+		$this->display('Index/index');
 
 	}
 
