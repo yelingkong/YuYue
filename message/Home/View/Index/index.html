@@ -2,160 +2,214 @@
 <html>
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
-    <title>留言</title>
+    <meta charset="utf-8">
+    <title>预约留言</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="/Public/layui/css/layui.css">
+    <script src="http://apps.bdimg.com/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="/Public/layui/layui.js"></script>
 </head>
-<link href="/Public/css/2016.css" rel="stylesheet" type="text/css" />
-<link href="/Public/css/iconfont.css" rel="stylesheet" type="text/css" />
-<script src="http://apps.bdimg.com/libs/jquery/1.9.0/jquery.min.js"></script>
 
 <body>
-    <form method="post" name="form1" id="gh_form" target="frameNo" class="form1" style="background: #EEEEEE">
-        <div class="nrjjsb">
-            <div class="titlecw">
-                <span>网络联合初诊表</span>
-                <samp>Associates diagnosed table</samp>
-                <div class="titlecw-img1"><img src="/Public/images/header_bgimg_03.jpg" alt=""></div>
-                <div class="titlecw-img2"><img src="/Public/images/header_bgimg_03.jpg" alt=""></div>
-            </div>
-            <div class="jiange"></div>
-            <div class="nr_n1">
-                <p>1、孩子现在主要有什么症状？</p>
-                <div class="nr_n1_dx">
-                    <p>
-                        <label>
-                            <input type="checkbox" name="zyzz" value="孩子现在主要有什么症状:多动" id="diagnose_0">
-                            <a>多动 </a></label>
-                        <label>
-                            <input type="checkbox" name="zyzz" value="孩子现在主要有什么症状:学习困难" id="diagnose_1">
-                            <a> 学习困难</a></label>
-                        <label>
-                            <input type="checkbox" name="zyzz" value="孩子现在主要有什么症状:注意力不集中" id="diagnose_2">
-                            <a>注意力不集中</a></label>
-                        <label>
-                            <input type="checkbox" name="zyzz" value="孩子现在主要有什么症状:脾气暴躁" id="diagnose_2">
-                            <a>脾气暴躁</a></label>
-                        <label>
-                            <input type="checkbox" name="zyzz" value="孩子现在主要有什么症状:不听管教" id="diagnose_2">
-                            <a>不听管教</a></label>
-                        <label>
-                            <input type="checkbox" name="zyzz" value="孩子现在主要有什么症状:无危险意识" id="diagnose_2">
-                            <a>无危险意识</a></label>
-                    </p>
-                </div>
-            </div>
-            <div style=" clear:both"></div>
-            <div class="nr_n1">
-                <p>2、孩子出现以上症状多久了？</p>
-                <div class="nr_n1_dx">
-                    <p>
-                        <label>
-                            <input type="radio" name="duojiu" value="孩子出现以上症状多久了：1~3个月" id="diagnose_0">
-                            <a>1~3个月</a></label>
-                        <label>
-                            <input type="radio" name="duojiu" value="孩子出现以上症状多久了： 3~6个月" id="diagnose_1">
-                            <a> 3~6个月</a></label>
-                        <label>
-                            <input type="radio" name="duojiu" value="孩子出现以上症状多久了：6个月~1年" id="diagnose_2">
-                            <a>6个月~1年</a></label>
-                        <label>
-                            <input type="radio" name="duojiu" value="孩子出现以上症状多久了：1年以上" id="diagnose_3">
-                            <a>1年以上</a></label>
-                    </p>
-                </div>
-            </div>
-            <div style=" clear:both"></div>
-            <div class="nr_n1">
-                <p>3、目前接受过哪些治疗？</p>
-                <div class="nr_n1_dx">
-                    <p>
-                        <label>
-                            <input type="checkbox" name="ks" value="目前接受过哪些治疗:西药" id="diagnose_0">
-                            <a>西药</a></label>
-                        <label>
-                            <input type="checkbox" name="ks" value="目前接受过哪些治疗:中成药" id="diagnose_1">
-                            <a>中成药</a></label>
-                        <label>
-                            <input type="checkbox" name="ks" value="目前接受过哪些治疗:偏方" id="diagnose_2">
-                            <a>偏方</a></label>
-                        <label>
-                            <input type="checkbox" name="ks" value="目前接受过哪些治疗:行为训练" id="diagnose_3">
-                            <a>行为训练</a></label>
-                        <label>
-                            <input type="checkbox" name="ks" value="目前接受过哪些治疗:未接受过治疗" id="diagnose_4">
-                            <a>未接受过治疗</a></label>
-                    </p>
-                </div>
-            </div>
-            <div style=" clear:both"></div>
-            <div class="nr_n1">
-                <p>4、您更想了解的是？</p>
-                <div class="nr_n1_dx">
-                    <p>
-                        <label>
-                            <input type="checkbox" name="ks" value="您更想了解的是：病情咨询" id="diagnose_0">
-                            <a>病情咨询</a></label>
-                        <label>
-                            <input type="checkbox" name="ks" value="您更想了解的是：治疗方法" id="diagnose_1">
-                            <a> 治疗方法</a></label>
-                        <label>
-                            <input type="checkbox" name="ks" value="您更想了解的是：治疗费用" id="diagnose_2">
-                            <a>治疗费用</a></label>
-                        <label>
-                            <input type="checkbox" name="ks" value="您更想了解的是：治疗周期" id="diagnose_3">
-                            <a>治疗周期 </a></label>
-                        <label>
-                            <input type="checkbox" name="ks" value="您更想了解的是：其他事宜" id="diagnose_4">
-                            <a>其他事宜</a></label>
-                    </p>
-                </div>
-            </div>
-            <!--多动症 注意力不集中 学习困难-->
-            <div class="nr_n2">
-                <div class="nr_n2_d1">
-                    <label>姓名：</label>
-                    <input name="name" type="text" id="name" class="name" placeholder="孩子姓名">
-                    <div class="msgbox">
-                        <label>年龄：</label>
-                        <input name="age" type="text" id="age" class="name" placeholder="孩子年龄">
-                    </div>
-                </div>
-                <div class="nr_n2_d3">
-                    <div class="msgbox2">
-                        <label>性别：</label>
-                        <input type="radio" name="sex" checked="checked" value="男" id="sex_0">
-                        <a>男</a>
-                        <input type="radio" name="sex" value="女" id="sex_1">
-                        <a>女</a>
-                    </div>
-                    <div class="msgbox1">
-                        <label>电话：</label>
-                        <input name="tel" type="text" id="tel" class="name" placeholder="家长电话">
-                    </div>
-                </div>
-            </div>
-            <!--患者信息结束-->
-            <div class="nr_n2_d4">
-                <p>症状描述：</p>
-                <div>
-                    <textarea name="zzms" id=""></textarea>
-                </div>
-            </div>
-            <div class="anniu1">
-                <input type="button" name="submit" class="act-submit" id="submit" onclick="yuyue('gh_form','1','1','name','tel')" value="提交问题">
-                <input type="reset" class="act-submit1 act-submit2" onclick="" value="重新填写">
-            </div>
-            <div class="wxts">
-                <p><strong>温馨提示：</strong>您所填的信息我们将及时反馈给医生进行诊断，对于您的个人信息我们承诺保密！请您放心</p>
+    <fieldset class="layui-elem-field layui-field-title" style="margin-top: 20px;">
+        <legend>预约留言</legend>
+    </fieldset>
+    <form class="layui-form" id="form1" action="">
+        <div class="layui-form-item">
+            <label class="layui-form-label">姓名</label>
+            <div class="layui-input-inline">
+                <input type="text" id="name" name="name" lay-verify="title" autocomplete="off" placeholder="请输入姓名" class="layui-input">
             </div>
         </div>
-        <!--  </div> -->
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">手机号</label>
+                <div class="layui-input-inline">
+                    <input type="tel" id="tel" name="tel" lay-verify="phone" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">预约日期</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="time" id="date" lay-verify="date" placeholder="yyyy-MM-dd" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">医院</label>
+            <div class="layui-input-block">
+                <select name="hospital" lay-filter="aihao">
+                    <volist name="list" id="vo" key="k">
+                        <option value="{$vo.hid}">{$vo.hname}</option>
+                    </volist>
+                </select>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">性别</label>
+            <div class="layui-input-block">
+                <input type="radio" name="sex" value="1" title="男" checked="">
+                <input type="radio" name="sex" value="0" title="女">
+            </div>
+        </div>
+        <div class="layui-form-item layui-form-text">
+            <label class="layui-form-label">症状描述</label>
+            <div class="layui-input-block">
+                <textarea placeholder="请输入内容" id="zzms" name="zzms" class="layui-textarea"></textarea>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-input-block">
+                <button class="layui-btn" onclick="yuyue('form1','1','name','tel')" lay-filter="demo1">立即提交</button>
+                <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+            </div>
+        </div>
     </form>
-    <!--联合初诊表结束-->
-    <script src="/Public/js/yuyue.js"></script>
-    <script src="/Public/js/layer/layer.js"></script>
-    <script src="/Public/js/dialog.js"></script>
+    <script>
+    layui.use(['form', 'layedit', 'laydate'], function() {
+        var form = layui.form,
+            layer = layui.layer,
+            layedit = layui.layedit,
+            laydate = layui.laydate;
+
+        //日期
+        laydate.render({
+            elem: '#date'
+        });
+        laydate.render({
+            elem: '#date1'
+        });
+
+        //创建一个编辑器
+        var editIndex = layedit.build('LAY_demo_editor');
+
+        //自定义验证规则
+        form.verify({
+            title: function(value) {
+                if (value.length < 3) {
+                    return '姓名至少得2个字吧';
+                }
+            }
+        });
+
+        //监听指定开关
+        form.on('switch(switchTest)', function(data) {
+            layer.msg('开关checked：' + (this.checked ? 'true' : 'false'), {
+                offset: '6px'
+            });
+            layer.tips('温馨提示：请注意开关状态的文字可以随意定义，而不仅仅是ON|OFF', data.othis)
+        });
+
+    });
+
+    function getCompatibility() {
+        var compatibility = "",
+            input = document.getElementsByTagName("input"),
+            value;
+        for (var i = 0; i < input.length; i++) {
+            if (input[i].type == "checkbox") {
+                if (input[i].checked) {
+                    value = input[i].value;
+                    compatibility += value + ",<br/>";
+                }
+            }
+
+        }
+        compatibility = compatibility.substring(0, compatibility.lastIndexOf(","));
+        return compatibility;
+    }
+
+
+    /*提交表单事件*/
+    function yuyue(id, bs, names, tel) {
+        var sourceurls = document.referrer;
+        var weburl = window.location.href;
+        var sourceurl = sourceurls.split("//")[1];
+        var suburl = weburl.split("//")[1];
+        var data = $("#" + id).serializeArray();
+        var name_ = document.getElementById(names);
+        var phone = document.getElementById(tel);
+
+        if (name_.value.length < 2) {
+            alert('请输入姓名！');
+            name_.focus();
+            return false;
+        } else if (name_.value == "") {
+            alert('请输入姓名！');
+            name_.focus();
+            return false;
+        } else if (name_.value == "请输入名字") {
+            alert('请输入姓名！');
+            name_.focus();
+            return false;
+        } else if (phone.value.length != 8 && phone.value.length != 11 && phone.value.length != 12) {
+            alert('请您输入正确的电话号码！');
+            phone.focus();
+            return false;
+        } else {
+            var str2 = getCompatibility();
+            postData = {};
+            $(data).each(function(i) {
+                postData[this.name] = this.value;
+            });
+            postData["title"] = document.title;
+            if (typeof(postData["title"]) == "undefined") {
+                postData["title"] = "未知";
+            }
+            if (typeof(postData["zzms"]) == "undefined") {
+                postData["zzms"] = "无";
+            }
+            postData["zzms"] = postData["zzms"] + "<br>其他信息：" + str2 + "<br>方便接听电话时间：<span style=\"color:red\">" + postData["hdtime"] + "</span>";
+            postData["bs"] = bs;
+            postData["sourceurl"] = sourceurl;
+            postData["suburl"] = suburl;
+            url = '/message.php';
+            $.post(url, postData, function(result) {
+                if (result.status == 0) {
+                    alert(result.message);
+                }
+                if (result.status == 1) {
+                    alert(result.message);
+                }
+            }, 'JSON');
+
+        }
+
+    }
+    $("input[name='name']").blur(function() {
+        var name = $("input[name='name']").val();
+        localStorage.setItem("ly_name", name);
+    })
+    $("input[name='tel']").blur(function() {
+        var tel = $("input[name='tel']").val();
+        localStorage.setItem("ly_tel", tel);
+    })
+    $("input[name='age']").blur(function() {
+        var age = $("input[name='age']").val();
+        localStorage.setItem("ly_age", age);
+    })
+    $("textarea[name='zzms']").blur(function() {
+        var zzms = $("textarea[name='zzms']").val();
+        localStorage.setItem("ly_zzms", zzms);
+    })
+
+    $(function() {
+        var name = localStorage.getItem("ly_name");
+        var tel = localStorage.getItem("ly_tel");
+        var zzms = localStorage.getItem("ly_zzms");
+        var age = localStorage.getItem("ly_age");
+        $("input[name='name']").attr("value", name);
+        $("input[name='tel']").attr("value", tel);
+        if (zzms) {
+            $("textarea[name='zzms']").text(zzms);
+        }
+        $("input[name='age']").attr("value", age);
+    });
+    </script>
 </body>
 
 </html>

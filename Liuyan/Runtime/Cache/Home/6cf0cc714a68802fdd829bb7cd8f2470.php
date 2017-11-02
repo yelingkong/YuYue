@@ -100,8 +100,10 @@ if (hospital) {
     });
     </script>
     <script type="text/html" id="sexTpl">
-        {{# if(d.sex === '女'){ }}
-        <span style="color: #F581B1;">{{ d.sex }}</span> {{# } else { }} {{ d.sex }} {{# } }}
+        {{# if(d.sex === '1'){ }}
+        <span>男</span> {{# } else if(d.sex === '0'){ }}
+        <span style="color: #F581B1;">女</span>{{# } else if(d.sex === '女'){ }}
+        <span style="color: #F581B1;">女</span>{{# } else { }}<span>{{ d.sex }}</span> {{# } }}
     </script>
     <script type="text/html" id="timeTpl">
         {{# if(d.time === '0000-00-00 00:00:00'){ }}
