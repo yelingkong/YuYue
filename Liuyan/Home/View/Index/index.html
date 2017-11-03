@@ -38,12 +38,12 @@
         var table = layui.table;
         table.render({
             elem: '#demo',
-            url: '/liuyan.php?c=liuyan&a=getliuyan&hospital='+hospital,
+            url: '/liuyan.php?c=liuyan&a=getliuyan&hospital=' + hospital,
             page: true,
             limit: 15,
             cols: [
                 [
-                    { field: 'hospital', title: '医院', width: 60,templet:'#hospitalTpl' },
+                    { field: 'hospital', title: '医院', width: 60, templet: '#hospitalTpl' },
                     { field: 'bs', title: '标识', event: 'detail', width: 60, templet: '#bsTpl' },
                     { field: 'name', title: '姓名', event: 'detail', width: 80 },
                     { field: 'age', title: '年龄', event: 'detail', width: 80 },

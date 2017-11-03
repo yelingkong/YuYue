@@ -43,7 +43,7 @@
             <label class="layui-form-label">医院</label>
             <div class="layui-input-block">
                 <select name="hospital" lay-filter="aihao">
-                    <?php if(is_array($list)): $k = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($k % 2 );++$k;?><option value="<?php echo ($vo["hid"]); ?>"><?php echo ($vo["hname"]); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
+                    <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><option value="<?php echo ($vo["hid"]); ?>"><?php echo ($vo["hname"]); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
                 </select>
             </div>
         </div>
