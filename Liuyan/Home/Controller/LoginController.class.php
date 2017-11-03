@@ -22,24 +22,24 @@ class LoginController extends Controller {
 	}
 /*登录检测*/
 	public function check() {
+		$rules = array(
+			array('username', 'require', '用户名不能为空哦〒_〒！'),
+			array('password', 'require', '密码不能为空〒_〒！'),
+		);
 		$username = $_POST['username'];
 		$password = $_POST['password'];
-		if (!trim($username)) {
-			return show(0, '用户名不能为空');
+		$admin = M("Admin");
+		if (!$admin->validate($rules)->create()) {
+			return show(0, $admin->getError());
+		} else {
+			$ret = D('Admin')->getAdminByUsername($username);
+			if (!$ret || $ret['status'] != 1) {
+				return show(0, '该用户不存在');
+			}
+			if ($ret['password'] != getMd5Password($password)) {
+				return show(0, '密码错误');
+			}
 		}
-		if (!trim($password)) {
-			return show(0, '密码不能为空');
-		}
-
-		$ret = D('Admin')->getAdminByUsername($username);
-		if (!$ret || $ret['status'] != 1) {
-			return show(0, '该用户不存在');
-		}
-		if ($ret['password'] != getMd5Password($password)) {
-			return show(0, '密码错误');
-
-		}
-
 		$_login['name_id'] = $ret['admin_id'];
 		$_login['ip'] = get_client_ip();
 		$_login['login_time'] = date("Y-m-d H:i:s");

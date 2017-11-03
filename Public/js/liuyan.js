@@ -13,20 +13,23 @@ layui.use('table', function() {
                 anim: 1,
                 content: '<div class="tanchuang">' +
                     '<p><b>id：</b>' + data.id + '</p>' +
+                    '<p><b>医院：</b>' + data.hname + '</p>' +
                     '<p><b>电话：</b><span style="color:red;">' + data.tel + '</span></p>' +
-                    '<p><b>ip地址：</b>' + data.ip + data.city + '</p>' +
+                    '<p><b>提交地址：</b><a href="http://' + data.suburl + '" target="_blank">' + data.title + '</a></p>' +
+                    '<p><b>ip地址：</b>' + data.ip + '&nbsp&nbsp&nbsp<b>ip归属地：</b>' + data.city + '</p>' +
                     '<p><b>提交时间：</b>' + data.tjtime + '</p>' +
                     '<p><b>预约时间：</b>' + data.time + '</p>' +
                     '<p><b>症状描述：</b>' + data.zzms + '</p>' +
-                    '<p><b>提交地址：</b><a href="http://' + data.suburl + '" target="_blank">' + data.title + '</a></p>' +
                     '</div>',
             });
 
         } else if (obj.event === 'setzt') {
             if (data.zt == 0) {
                 data.zt = 1;
+                data.zt_name = "已沟通";
             } else {
                 data.zt = 0;
+                data.zt_name = "未沟通";
             }
             datas = {};
             datas['id'] = data.id,
@@ -35,11 +38,10 @@ layui.use('table', function() {
                 $.post(url, datas, function(result) {
                     if (result.status == 1) {
                         obj.update({
-                            zt: data.zt
+                            zt_name: data.zt_name,
+                            zt: data.zt,
                         });
-                        zt_Modify(data.id, data.zt);
-                    }
-                    if (result.status == 0) {
+                    } else {
                         alert(result.message);
                     }
                 }, "json");
@@ -58,10 +60,3 @@ layui.use('table', function() {
         }
     });
 });
-function zt_Modify(id, zt) {
-    if (zt == 0) {
-        $("#shenhe_" + id).text("未沟通");
-    } else {
-        $("#shenhe_" + id).text("已沟通");
-    }
-}

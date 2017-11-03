@@ -3,8 +3,8 @@ namespace Common\Model;
 use Think\Model;
 
 /**
- * 文章内容model操作
- * @author  singwa
+ * 留言模型
+ * @author  yekong
  */
 class LiuyanModel extends Model {
 	private $_db = '';
@@ -34,7 +34,8 @@ class LiuyanModel extends Model {
 		$list = $this->_db->where($conditions)
 			->order('id desc')
 			->limit($offset, $pageSize)
-
+			->join('left JOIN yy_hospital ON yy_liuyan.hospital = yy_hospital.hid')
+			->join('left JOIN yy_zt ON yy_liuyan.zt = yy_zt.zt_status')
 			->select();
 
 		return $list;
@@ -79,4 +80,5 @@ class LiuyanModel extends Model {
 
 		return $this->_db->where('id=' . $id)->save($data);
 	}
+
 }

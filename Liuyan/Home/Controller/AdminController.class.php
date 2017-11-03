@@ -15,29 +15,24 @@ class AdminController extends CommonController {
 	}
 
 	public function add() {
-
+		$rules = array(
+			array('username', 'require', '用户名不能为空哦〒_〒！'),
+			array('username', '', '用户名已存在', 0, 'unique', 3),
+			array('password', 'require', '密码不能为空〒_〒！'),
+		);
+		$admin = M("Admin");
 		// 保存数据
 		if (IS_POST) {
-
-			if (!isset($_POST['username']) || !$_POST['username']) {
-				return show(0, '用户名不能为空');
+			if (!$admin->validate($rules)->create()) {
+				return show(0, $admin->getError());
+			} else {
+				$_POST['password'] = getMd5Password($_POST['password']);
+				// 新增
+				$id = D("Admin")->insert($_POST);
+				if (!$id) {
+					return show(0, '新增失败');
+				} else {return show(1, '新增成功');}
 			}
-			if (!isset($_POST['password']) || !$_POST['password']) {
-				return show(0, '密码不能为空');
-			}
-			$_POST['password'] = getMd5Password($_POST['password']);
-			// 判定用户名是否存在
-			$admin = D("Admin")->getAdminByUsername($_POST['username']);
-			if ($admin && $admin['status'] != -1) {
-				return show(0, '该用户存在');
-			}
-
-			// 新增
-			$id = D("Admin")->insert($_POST);
-			if (!$id) {
-				return show(0, '新增失败');
-			}
-			return show(1, '新增成功');
 		}
 		$this->display();
 	}

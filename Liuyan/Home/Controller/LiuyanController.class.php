@@ -82,7 +82,7 @@ class LiuyanController extends CommonController {
 				// 执行数据更新操作
 				$res = D("Liuyan")->updateztById($id, $zt);
 				if ($res) {
-					return show_zt(1, '操作成功', $zt);
+					return show_zt(1, '操作成功');
 				} else {
 					return show(0, '操作失败');
 				}

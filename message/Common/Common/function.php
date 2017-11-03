@@ -3,7 +3,7 @@
 /**
  * 公用的方法
  */
-
+/*数据返回方法*/
 function show($status, $message, $data = array()) {
 	$reuslt = array(
 		'status' => $status,
@@ -14,6 +14,7 @@ function show($status, $message, $data = array()) {
 	exit(json_encode($reuslt));
 }
 
+/*根据ip获取归属城市*/
 function getCity($ip = '') {
 	if ($ip == '') {
 		$url = "http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=json";

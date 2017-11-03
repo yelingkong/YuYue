@@ -80,17 +80,17 @@ if (hospital) {
             limit: 15,
             cols: [
                 [
-                    { field: 'hospital', title: '医院', width: 60, templet: '#hospitalTpl' },
+                    { field: 'short_title', title: '医院', width: 60, },
                     { field: 'bs', title: '标识', event: 'detail', width: 60, templet: '#bsTpl' },
                     { field: 'name', title: '姓名', event: 'detail', width: 80 },
                     { field: 'age', title: '年龄', event: 'detail', width: 80 },
                     { field: 'sex', title: '性别', event: 'detail', width: 80, templet: '#sexTpl' },
                     { field: 'tel', title: '电话', width: 120 },
-                    { field: 'height', title: '身高', event: 'detail', width: 60 },
                     { field: 'city', title: 'ip', event: 'detail', width: 140, templet: '#ipTpl' },
                     { field: 'zzms', title: '描述', event: 'detail', width: 80 },
-                    { field: 'tjtime', title: '提交时间', event: 'detail', width: 160 },
                     { field: 'suburl', title: '提交地址', width: 220, templet: '#subTpl' },
+                    { field: 'height', title: '身高', event: 'detail', width: 60 },
+                    { field: 'tjtime', title: '提交时间', event: 'detail', width: 160 },
                     { field: 'time', title: '预约时间', event: 'detail', width: 120, templet: '#timeTpl' },
                     { field: 'zt', title: '状态', width: 80, event: 'setzt', templet: '#ztTpl' },
                     { fixed: 'right', title: '操作', width: 80, align: 'center', toolbar: '#barDemo' }
@@ -120,16 +120,8 @@ if (hospital) {
         <a href="http://{{ d.suburl }}" target="_blank">{{ d.suburl }}</a> {{# } else { }}
         <a href="http://{{ d.suburl }}" target="_blank" title="{{ d.title }}">{{ d.title }}</a> {{# } }}
     </script>
-    <script type="text/html" id="hospitalTpl">
-        {{# if(d.hospital === '1'){ }}
-        <span>西南</span>{{# } else if(d.hospital === '2'){ }}
-        <span>贵州</span> {{# } else if(d.hospital === '3'){ }}
-        <span>太原</span> {{# } else { }}
-        <span style="color:red;">其他</span> {{# } }}
-    </script>
     <script type="text/html" id="ztTpl">
-        {{# if(d.zt === '0'){ }}
-        <a id="shenhe_{{ d.id }}" class="zt_{{ d.zt }}">未沟通</a> {{# } else { }} <a class="zt_{{ d.zt }}" id="shenhe_{{ d.id }}">已沟通</a> {{# } }}
+        <a id="shenhe_{{ d.zt }}" class="zt_{{ d.zt }}">{{ d.zt_name }}</a>
     </script>
     <script src='/Public/js/liuyan.js'></script>
 </body>
