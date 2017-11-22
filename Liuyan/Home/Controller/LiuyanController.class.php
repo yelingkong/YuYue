@@ -50,7 +50,6 @@ class LiuyanController extends CommonController {
 		$liuyans2['data'] = $liuyan;
 		$this->ajaxReturn($liuyans2, 'JSON');
 	}
-
 	public function Lately() {
 		$liu = array();
 		$counts = array();
@@ -73,6 +72,7 @@ class LiuyanController extends CommonController {
 		};
 		$this->ajaxReturn($liu, 'JSON');
 	}
+
 	/*状态修改设置*/
 	public function setzt() {
 		try {

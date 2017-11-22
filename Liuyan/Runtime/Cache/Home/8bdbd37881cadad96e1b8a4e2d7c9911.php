@@ -20,9 +20,20 @@
             <a href="javascript:;">
           <img src="http://t.cn/RCzsdCq" class="layui-nav-img"><?php echo getLoginUsername()?></a>
         </li>
-        <li class="layui-nav-item"><a href="/liuyan.php?c=login&a=loginout">注销</a></li>
+        <li class="layui-nav-item"><a href="javascript:;" onclick="tui()">注销</a></li>
     </ul>
 </div>
+<script>
+function tui() {
+    layui.use('layer', function() {
+        var layer = layui.layer;
+        layer.confirm('确定要退出吗', { icon: 3, title: '提示' }, function(index) {
+            window.location.href = "/liuyan.php?c=login&a=loginout";
+            layer.close(index);
+        });
+    });
+}
+</script>
         <div class="layui-side layui-bg-black">
     <div class="layui-side-scroll">
         <ul class="layui-nav layui-nav-tree" lay-filter="test">
@@ -36,6 +47,12 @@
                             <a href="/liuyan.php?c=index&a=liuyan&hospital=<?php echo ($vo["hid"]); ?>"><?php echo ($vo["hname"]); ?></a>
                         </dd><?php endforeach; endif; else: echo "" ;endif; ?>
                 </dl>
+            </li>
+            <li class="layui-nav-item layui-nav-itemed">
+                <a href="/liuyan.php?c=index&a=hospital">医院</a>
+            </li>
+            <li class="layui-nav-item layui-nav-itemed">
+                <a href="/liuyan.php?c=index&a=logs">登录日志</a>
             </li>
         </ul>
     </div>

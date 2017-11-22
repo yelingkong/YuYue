@@ -23,37 +23,17 @@ layui.use('table', function() {
                     '</div>',
             });
 
-        } else if (obj.event === 'setzt') {
-            if (data.zt == 0) {
-                data.zt = 1;
-                data.zt_name = "已沟通";
-            } else {
-                data.zt = 0;
-                data.zt_name = "未沟通";
-            }
-            datas = {};
-            datas['id'] = data.id,
-                datas['zt'] = data.zt,
-                url = '/liuyan.php?c=liuyan&a=setzt',
-                $.post(url, datas, function(result) {
-                    if (result.status == 1) {
-                        obj.update({
-                            zt_name: data.zt_name,
-                            zt: data.zt,
-                        });
-                    } else {
-                        alert(result.message);
-                    }
-                }, "json");
         } else if (obj.event === 'del') {
             datas = {};
             datas['id'] = data.id,
                 datas['zt'] = -1,
                 url = '/liuyan.php?c=liuyan&a=setzt',
                 $.post(url, datas, function(result) {
-                    if (result.status == 1) {}
+                    if (result.status == 1) {
+                        layer.msg(result.message, { icon: 1, time: 1000 });
+                    }
                     if (result.status == 0) {
-                        alert(result.message);
+                        layer.msg(result.message, { icon: 0, time: 1000 });
                     }
                 }, "json");
             obj.del();

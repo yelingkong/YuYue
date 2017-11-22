@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>登录日志</title>
+    <link rel="stylesheet" href="/Public/layui/css/layui.css">
+    <link rel="stylesheet" href="/Public/assets/css/admin.css">
+    <script src="http://apps.bdimg.com/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script type="text/javascript" src="/Public/assets/js/echarts.min.js"></script>
+    <script src="/Public/layui/layui.all.js"></script>
+</head>
+
+<body class="layui-layout-body">
+    <div class="layui-layout layui-layout-admin">
+        <include file="Index/header" />
+        <include file="Index/nav" />
+        <div class="layui-body">
+            <!-- 内容主体区域 -->
+            <div style="padding: 15px;">
+                <table id="demo" class="layui-table" lay-filter="demo"></table>
+                <script type="text/html" id="barDemo">
+                    <a class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>
+                </script>
+            </div>
+        </div>
+    </div>
+    <script>
+    layui.use('table', function() {
+        var table = layui.table,
+            form = layui.form;
+        table.render({
+            elem: '#demo',
+            url: '/liuyan.php?c=history',
+            page: true,
+            limit: 15,
+            cols: [
+                [
+                    { field: 'id', title: 'id', },
+                    { field: 'username', title: '用户名', },
+                    { field: 'ip', title: 'ip', },
+                    { field: 'login_time', title: '登录时间',templet: '#datasTpl' },
+                ]
+            ]
+        });
+    });
+
+    function timeagos(times) {
+        var util = layui.util;
+        return util.timeAgo(times);
+    }
+    </script>
+    <script type="text/html" id="datasTpl">
+        {{# var times=d.login_time; return timeagos(times); }}
+    </script>
+    <script src='/Public/js/liuyan.js'></script>
+</body>
+
+</html>

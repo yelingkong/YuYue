@@ -6,19 +6,11 @@ use Think\Controller;
  * use Common\Model 这块可以不需要使用，框架默认会加载里面的内容
  */
 class LoginController extends Controller {
-
 	public function index() {
-		$host = get_client_ip();
-		$list = '171.221.254.140,127.0.0.1';
-		if (in_host($host, $list)) {
-			if (session('adminUser')) {
-				$this->redirect('/admin.php?c=index');
-			}
-			$this->display();
-		} else {
-			$this->display("login/login");
+		if (session('adminUser')) {
+			$this->redirect('/admin.php?c=index');
 		}
-
+		$this->display();
 	}
 /*登录检测*/
 	public function check() {

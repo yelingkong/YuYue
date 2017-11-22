@@ -5,6 +5,17 @@
             <a href="javascript:;">
           <img src="http://t.cn/RCzsdCq" class="layui-nav-img"><?php echo getLoginUsername()?></a>
         </li>
-        <li class="layui-nav-item"><a href="/liuyan.php?c=login&a=loginout">注销</a></li>
+        <li class="layui-nav-item"><a href="javascript:;" onclick="tui()">注销</a></li>
     </ul>
 </div>
+<script>
+function tui() {
+    layui.use('layer', function() {
+        var layer = layui.layer;
+        layer.confirm('确定要退出吗', { icon: 3, title: '提示' }, function(index) {
+            window.location.href = "/liuyan.php?c=login&a=loginout";
+            layer.close(index);
+        });
+    });
+}
+</script>

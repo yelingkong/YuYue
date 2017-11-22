@@ -115,12 +115,10 @@
                     compatibility += value + ",<br/>";
                 }
             }
-
         }
         compatibility = compatibility.substring(0, compatibility.lastIndexOf(","));
         return compatibility;
     }
-
 
     /*提交表单事件*/
     function yuyue(id, bs, names, tel) {
@@ -132,50 +130,33 @@
         var name_ = document.getElementById(names);
         var phone = document.getElementById(tel);
 
-        if (name_.value.length < 2) {
-            alert('请输入姓名！');
-            name_.focus();
-            return false;
-        } else if (name_.value == "") {
-            alert('请输入姓名！');
-            name_.focus();
-            return false;
-        } else if (name_.value == "请输入名字") {
-            alert('请输入姓名！');
-            name_.focus();
-            return false;
-        } else if (phone.value.length != 8 && phone.value.length != 11 && phone.value.length != 12) {
-            alert('请您输入正确的电话号码！');
-            phone.focus();
-            return false;
-        } else {
-            var str2 = getCompatibility();
-            postData = {};
-            $(data).each(function(i) {
-                postData[this.name] = this.value;
-            });
-            postData["title"] = document.title;
-            if (typeof(postData["title"]) == "undefined") {
-                postData["title"] = "未知";
-            }
-            if (typeof(postData["zzms"]) == "undefined") {
-                postData["zzms"] = "无";
-            }
-            postData["zzms"] = postData["zzms"] + "<br>其他信息：" + str2 + "<br>方便接听电话时间：<span style=\"color:red\">" + postData["hdtime"] + "</span>";
-            postData["bs"] = bs;
-            postData["sourceurl"] = sourceurl;
-            postData["suburl"] = suburl;
-            url = '/message.php';
-            $.post(url, postData, function(result) {
-                if (result.status == 0) {
-                    alert(result.message);
-                }
-                if (result.status == 1) {
-                    alert(result.message);
-                }
-            }, 'JSON');
-
+        var str2 = getCompatibility();
+        postData = {};
+        $(data).each(function(i) {
+            postData[this.name] = this.value;
+        });
+        postData["title"] = document.title;
+        if (typeof(postData["title"]) == "undefined") {
+            postData["title"] = "未知";
         }
+        if (typeof(postData["zzms"]) == "undefined") {
+            postData["zzms"] = "无";
+        }
+        postData["zzms"] = postData["zzms"] + "<br>其他信息：" + str2 + "<br>方便接听电话时间：<span style=\"color:red\">" + postData["hdtime"] + "</span>";
+        postData["bs"] = bs;
+        postData["sourceurl"] = sourceurl;
+        postData["suburl"] = suburl;
+        url = '/message.php';
+        $.post(url, postData, function(result) {
+            if (result.status == 0) {
+                alert(result.message);
+            }
+            if (result.status == 1) {
+                alert(result.message);
+            }
+        }, 'JSON');
+
+
 
     }
     $("input[name='name']").blur(function() {

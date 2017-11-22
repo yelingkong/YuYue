@@ -2,10 +2,6 @@
 namespace Common\Model;
 use Think\Model;
 
-/**
- * 用户组操作
- * @author  singwa
- */
 class HistoryModel extends Model {
 	private $_db = '';
 
@@ -18,6 +14,17 @@ class HistoryModel extends Model {
 			return 0;
 		}
 		return $this->_db->add($data);
+	}
+	public function getHistory($data, $page, $pageSize = 10) {
+		$offset = ($page - 1) * $pageSize;
+		$list = $this->_db->where($conditions)
+			->order('id desc')
+			->limit($offset, $pageSize)
+			->join('left JOIN yy_admin ON yy_history.name_id = yy_admin.admin_id')
+			->select();
+
+		return $list;
+
 	}
 
 }
