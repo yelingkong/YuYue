@@ -8,4 +8,10 @@ return array(
 	'LOAD_EXT_CONFIG' => 'db',
 	'MD5_PRE' => 'zhongtong',
 	'HTML_FILE_SUFFIX' => '.html',
+	'SESSION_OPTIONS' => array(
+		'name' => 'adminUser',
+		'expire' => 24 * 3600 * 15,
+		'use_trans_sid' => 1,
+		'use_only_cookies' => 0,
+	),
 );
